@@ -1,0 +1,103 @@
+{
+  "host_template": "SC3000",
+  "host_title": "SC - <node>",
+  "priority": 7,
+  "graphs": [
+    {
+      "graph_template": "SC - LUN Read IOPS - <devn> cols",
+      "graph_tree": "/TTSP/<node_path>/Cont/IOPS/detail/read",
+      "graph_type": "multi",
+      "legend_max": 16,
+      "graph_items": ["rcmd_s"],
+      "chart_style": "line1",
+      "vertical_label": "io/sec",
+      "upper_limit": 1000,
+      "unit_exponent_value": 1,
+      "graph_title": "SC - <node> - LUN Read IOPS",
+      "datasource_title": "SC - <node> <device> - LUN Read IOPS"
+    },
+    {
+      "graph_template": "SC - LUN Write IOPS - <devn> cols",
+      "graph_tree": "/TTSP/<node_path>/Cont/IOPS/detail/write",
+      "graph_type": "multi",
+      "legend_max": 16,
+      "graph_items": ["wcmd_s"],
+      "chart_style": "line1",
+      "vertical_label": "io/sec",
+      "upper_limit": 1000,
+      "unit_exponent_value": 1,
+      "graph_title": "SC - <node> - LUN Write IOPS",
+      "datasource_title": "SC - <node> <device> - LUN Write IOPS"
+    },
+    {
+      "graph_template": "SC - LUN Read MBs - <devn> cols",
+      "graph_tree": "/TTSP/<node_path>/Cont/MBs/detail/read",
+      "graph_type": "multi",
+      "legend_max": 16,
+      "graph_items": ["rkb_s"],
+      "chart_style": "stack",
+      "vertical_label": "MB/sec",
+      "cdef": "Multiply by 1024",
+      "upper_limit": 1000,
+      "graph_title": "SC - <node> - LUN Read MBs",
+      "datasource_title": "SC - <node> <device> - LUN Read MBs"
+    },
+    {
+      "graph_template": "SC - LUN Write MBs - <devn> cols",
+      "graph_tree": "/TTSP/<node_path>/Cont/MBs/detail/write",
+      "graph_type": "multi",
+      "legend_max": 16,
+      "graph_items": ["wkb_s"],
+      "chart_style": "stack",
+      "vertical_label": "MB/sec",
+      "cdef": "Multiply by 1024",
+      "upper_limit": 1000,
+      "graph_title": "SC - <node> - LUN Write MBs",
+      "datasource_title": "SC - <node> <device> - LUN Write MBs"
+    },
+    {
+      "graph_template": "SC - LUN IOPS",
+      "graph_tree": "/TTSP/<node_path>/LUN/IOPS/",
+      "graph_items": ["rcmd_s","wcmd_s"],
+      "chart_style": "line1",
+      "vertical_label": "io/sec",
+      "upper_limit": 1000,
+      "unit_exponent_value": 1,
+      "graph_title": "SC - <node> <device> - LUN IOPS",
+      "datasource_title": "SC - <node> <device> - LUN IOPS"
+    },
+    {
+      "graph_template": "SC - LUN MB/sec",
+      "graph_tree": "/TTSP/<node_path>/LUN/MBs/",
+      "graph_items": ["rkb_s","wkb_s"],
+      "chart_style": "line1",
+      "cdef": "Multiply by 1024",
+      "vertical_label": "MB/sec",
+      "base_value": 1024,
+      "upper_limit": 10485760,
+      "graph_title": "SC - <node> <device> - LUN MB/sec",
+      "datasource_title": "SC - <node> <device> - LUN MB/sec"
+    },
+    {
+      "graph_template": "SC - LUN Response",
+      "graph_tree": "/TTSP/<node_path>/LUN/Elapse/",
+      "graph_items": ["rrs","wrs"],
+      "chart_style": "line1",
+      "vertical_label": "msec",
+      "upper_limit": 20,
+      "graph_title": "SC - <node> <device> - LUN Response",
+      "datasource_title": "SC - <node> <device> - LUN Response"
+    },
+    {
+      "graph_template": "SC - LUN HDD IOPS",
+      "graph_tree": "/TTSP/<node_path>/LUN/HDDs/",
+      "graph_items": ["rhdd_s","whdd_s"],
+      "chart_style": "line1",
+      "vertical_label": "io/sec",
+      "upper_limit": 1000,
+      "unit_exponent_value": 1,
+      "graph_title": "SC - <node> <device> - LUN HDD IOPS",
+      "datasource_title": "SC - <node> <device> - LUN HDD IOPS"
+    }
+  ]
+}

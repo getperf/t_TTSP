@@ -1,0 +1,56 @@
+{
+  "host_template": "ArrayFort",
+  "host_title": "AF - <node>",
+  "priority": 2,
+  "graphs": [
+    {
+      "graph_template": "AF - IOPS",
+      "graph_tree": "/TTSP/<node_path>/Cont/IOPS",
+      "graph_items": ["rcmd_s","wcmd_s"],
+      "chart_style": "line1",
+      "vertical_label": "io/sec",
+      "upper_limit": 1000,
+      "unit_exponent_value": 1,
+      "graph_title": "AF - <node> - Controller IOPS",
+      "datasource_title": "AF - <node> - Controller IOPS"
+    },
+    {
+      "graph_template": "AF - MB/sec",
+      "graph_tree": "/TTSP/<node_path>/Cont/MBs",
+      "graph_items": ["rkb_s","wkb_s"],
+      "chart_style": "line1",
+      "cdef": "Multiply by 1024",
+      "vertical_label": "MB/sec",
+      "base_value": 1024,
+      "upper_limit": 10485760,
+      "graph_title": "AF - <node> - Controller MB/sec",
+      "datasource_title": "AF - <node> - Controller MB/sec"
+    },
+    {
+      "graph_template": "AF - Response",
+      "graph_tree": "/TTSP/<node_path>/Cont/Elapse",
+      "graph_items": ["rrs","wrs"],
+      "chart_style": "line1",
+      "vertical_label": "msec",
+      "upper_limit": 20,
+      "graph_title": "AF - <node> - Controller Response",
+      "datasource_title": "AF - <node> - Controller Response"
+    },
+    {
+      "graph_template": "AF - HDD IOPS",
+      "graph_tree": "/TTSP/<node_path>/Cont/HDDs",
+      "graph_items": ["rhdd_s","whdd_s"],
+      "chart_style": "line1",
+      "vertical_label": "io/sec",
+      "upper_limit": 1000,
+      "unit_exponent_value": 1,
+      "graph_title": "AF - <node> - Controller HDD IOPS",
+      "datasource_title": "AF - <node> - Controller HDD IOPS"
+    }
+  ]
+}
+
+
+
+
+

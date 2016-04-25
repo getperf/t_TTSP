@@ -1,0 +1,28 @@
+{
+  "host_template": "ArrayFort",
+  "host_title": "AF - <node>",
+  "priority": 12,
+  "graphs": [
+    {
+      "graph_template": "AF - RaidGr IOPS",
+      "graph_tree": "/TTSP/<node_path>/RaidGr/IOPS/",
+      "graph_items": ["rcmd_s","wcmd_s"],
+      "chart_style": "line1",
+      "vertical_label": "io/sec",
+      "upper_limit": 100,
+      "unit_exponent_value": 1,
+      "graph_title": "AF - <node> <device> - RaidGr IOPS",
+      "datasource_title": "AF - <node> <device> - RaidGr IOPS"
+    },
+    {
+      "graph_template": "AF - RaidGr Response",
+      "graph_tree": "/TTSP/<node_path>/RaidGr/Elapse/",
+      "graph_items": ["rrs","wrs"],
+      "chart_style": "line1",
+      "vertical_label": "msec",
+      "upper_limit": 20,
+      "graph_title": "AF - <node> <device> - RaidGr Response",
+      "datasource_title": "AF - <node> <device> - RaidGr Response"
+    }
+  ]
+}

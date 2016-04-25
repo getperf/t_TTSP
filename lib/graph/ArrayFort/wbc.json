@@ -1,0 +1,21 @@
+{
+  "host_template": "ArrayFort",
+  "host_title": "AF - <node>",
+  "priority": 1,
+  "graphs": [
+    {
+      "graph_template": "AF - write-back-cache schedule",
+      "graph_tree": "/TTSP/<node_path>/WBC",
+      "legend_type": "minimum",
+      "graph_items": ["10pct","20pct","30pct","40pct","50pct","60pct","70pct","80pct","90pct","100pct"],
+      "graph_item_texts": ["10%","20%","30%","40%","50%","60%","70%","80%","90%","100%"],
+      "graph_comment": "<application> FW: <FW_revision> Cache: <cache_size> HostIF: <host_interface>",
+      "chart_style": "stack",
+      "vertical_label": "count",
+      "upper_limit": 1000,
+      "unit_exponent_value": 1,
+      "graph_title": "AF - <node> - write-back-cache schedule",
+      "datasource_title": "AF - <node> - write-back-cache schedule"
+    }
+  ]
+}

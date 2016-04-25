@@ -1,0 +1,3490 @@
+=== model: SC3000 system ID: 0x56716d40 system code: KC0282 ===
+host interface	: FC 8Gbps Optical 2-Port
+cache size	: 5379MB
+FW revision	: 1135
+device                LDISK   WBC     RAIDgr. level   HDD     stripe
+---                   0       ON      0       1       10      256
+---                   1       ON      1       1       12      256
+
+start time	: 2016/04/04 10:05:51
+interval time	: 60
+=== 56716d40(0:1) write-back-cache schedule information ===
+schedule parameter	   schedule count	
+  10%        500ms	        10 100.0%	
+  20%        400ms	         0   0.0%	
+  30%        200ms	         0   0.0%	
+  40%        100ms	         0   0.0%	
+  50%         60ms	         0   0.0%	
+  60%         40ms	         0   0.0%	
+  70%         20ms	         0   0.0%	
+  80%         10ms	         0   0.0%	
+  90%          0ms	         0   0.0%	
+ 100%          0ms	         0   0.0%	
+=== :0 access summary information ===
+	 (KB)/s	  cmd/s	 rs(ms)	 HDD /s	         cmd   hit	         blk   hit	    que
+read	    0.0     0.0	    0.0	    0.0	           0   0.0	           0   0.0	
+write	    0.0     0.0	    0.0	    0.0	           0   0.0	           0   0.0	
+=== :0 transfer size information ===
+                 read               write          read-ahead   write-back
+<=   2KB            0   0.0%            0   0.0%            0            0 
+<=   8KB            0   0.0%            0   0.0%            0            0 
+<=  16KB            0   0.0%            0   0.0%            0            0 
+<=  32KB            0   0.0%            0   0.0%            0            0 
+<=  64KB            0   0.0%            0   0.0%            0            0 
+<= 128KB            0   0.0%            0   0.0%            0            0 
+<= 256KB            0   0.0%            0   0.0%            0            0 
+<= 512KB            0   0.0%            0   0.0%            0            0 
+<=   1MB            0   0.0%            0   0.0%            0            0 
+>    1MB            0   0.0%            0   0.0%            0            0 
+=== :0 response time information ===
+                read               write          read-ahead   write-back
+< 0.1ms            0   0.0%            0   0.0%            0            0 
+< 0.2ms            0   0.0%            0   0.0%            0            0 
+< 0.3ms            0   0.0%            0   0.0%            0            0 
+< 0.4ms            0   0.0%            0   0.0%            0            0 
+< 0.5ms            0   0.0%            0   0.0%            0            0 
+< 0.6ms            0   0.0%            0   0.0%            0            0 
+< 0.7ms            0   0.0%            0   0.0%            0            0 
+< 0.8ms            0   0.0%            0   0.0%            0            0 
+< 0.9ms            0   0.0%            0   0.0%            0            0 
+<   1ms            0   0.0%            0   0.0%            0            0 
+<   2ms            0   0.0%            0   0.0%            0            0 
+<   3ms            0   0.0%            0   0.0%            0            0 
+<   4ms            0   0.0%            0   0.0%            0            0 
+<   5ms            0   0.0%            0   0.0%            0            0 
+<   6ms            0   0.0%            0   0.0%            0            0 
+<   7ms            0   0.0%            0   0.0%            0            0 
+<   8ms            0   0.0%            0   0.0%            0            0 
+<   9ms            0   0.0%            0   0.0%            0            0 
+<  10ms            0   0.0%            0   0.0%            0            0 
+<  20ms            0   0.0%            0   0.0%            0            0 
+<  30ms            0   0.0%            0   0.0%            0            0 
+<  40ms            0   0.0%            0   0.0%            0            0 
+<  50ms            0   0.0%            0   0.0%            0            0 
+<  60ms            0   0.0%            0   0.0%            0            0 
+<  70ms            0   0.0%            0   0.0%            0            0 
+<  80ms            0   0.0%            0   0.0%            0            0 
+<  90ms            0   0.0%            0   0.0%            0            0 
+< 100ms            0   0.0%            0   0.0%            0            0 
+>=100ms            0   0.0%            0   0.0%            0            0 
+=== :0 distribution count information ===
+block area         read               write
+         0            0   0.0%            0   0.0%
+         1            0   0.0%            0   0.0%
+         2            0   0.0%            0   0.0%
+         3            0   0.0%            0   0.0%
+         4            0   0.0%            0   0.0%
+         5            0   0.0%            0   0.0%
+         6            0   0.0%            0   0.0%
+         7            0   0.0%            0   0.0%
+         8            0   0.0%            0   0.0%
+         9            0   0.0%            0   0.0%
+        10            0   0.0%            0   0.0%
+        11            0   0.0%            0   0.0%
+        12            0   0.0%            0   0.0%
+        13            0   0.0%            0   0.0%
+        14            0   0.0%            0   0.0%
+        15            0   0.0%            0   0.0%
+        16            0   0.0%            0   0.0%
+        17            0   0.0%            0   0.0%
+        18            0   0.0%            0   0.0%
+        19            0   0.0%            0   0.0%
+        20            0   0.0%            0   0.0%
+        21            0   0.0%            0   0.0%
+        22            0   0.0%            0   0.0%
+        23            0   0.0%            0   0.0%
+        24            0   0.0%            0   0.0%
+        25            0   0.0%            0   0.0%
+        26            0   0.0%            0   0.0%
+        27            0   0.0%            0   0.0%
+        28            0   0.0%            0   0.0%
+        29            0   0.0%            0   0.0%
+        30            0   0.0%            0   0.0%
+        31            0   0.0%            0   0.0%
+        32            0   0.0%            0   0.0%
+        33            0   0.0%            0   0.0%
+        34            0   0.0%            0   0.0%
+        35            0   0.0%            0   0.0%
+        36            0   0.0%            0   0.0%
+        37            0   0.0%            0   0.0%
+        38            0   0.0%            0   0.0%
+        39            0   0.0%            0   0.0%
+        40            0   0.0%            0   0.0%
+        41            0   0.0%            0   0.0%
+        42            0   0.0%            0   0.0%
+        43            0   0.0%            0   0.0%
+        44            0   0.0%            0   0.0%
+        45            0   0.0%            0   0.0%
+        46            0   0.0%            0   0.0%
+        47            0   0.0%            0   0.0%
+        48            0   0.0%            0   0.0%
+        49            0   0.0%            0   0.0%
+        50            0   0.0%            0   0.0%
+        51            0   0.0%            0   0.0%
+        52            0   0.0%            0   0.0%
+        53            0   0.0%            0   0.0%
+        54            0   0.0%            0   0.0%
+        55            0   0.0%            0   0.0%
+        56            0   0.0%            0   0.0%
+        57            0   0.0%            0   0.0%
+        58            0   0.0%            0   0.0%
+        59            0   0.0%            0   0.0%
+        60            0   0.0%            0   0.0%
+        61            0   0.0%            0   0.0%
+        62            0   0.0%            0   0.0%
+        63            0   0.0%            0   0.0%
+        64            0   0.0%            0   0.0%
+        65            0   0.0%            0   0.0%
+        66            0   0.0%            0   0.0%
+        67            0   0.0%            0   0.0%
+        68            0   0.0%            0   0.0%
+        69            0   0.0%            0   0.0%
+        70            0   0.0%            0   0.0%
+        71            0   0.0%            0   0.0%
+        72            0   0.0%            0   0.0%
+        73            0   0.0%            0   0.0%
+        74            0   0.0%            0   0.0%
+        75            0   0.0%            0   0.0%
+        76            0   0.0%            0   0.0%
+        77            0   0.0%            0   0.0%
+        78            0   0.0%            0   0.0%
+        79            0   0.0%            0   0.0%
+        80            0   0.0%            0   0.0%
+        81            0   0.0%            0   0.0%
+        82            0   0.0%            0   0.0%
+        83            0   0.0%            0   0.0%
+        84            0   0.0%            0   0.0%
+        85            0   0.0%            0   0.0%
+        86            0   0.0%            0   0.0%
+        87            0   0.0%            0   0.0%
+        88            0   0.0%            0   0.0%
+        89            0   0.0%            0   0.0%
+        90            0   0.0%            0   0.0%
+        91            0   0.0%            0   0.0%
+        92            0   0.0%            0   0.0%
+        93            0   0.0%            0   0.0%
+        94            0   0.0%            0   0.0%
+        95            0   0.0%            0   0.0%
+        96            0   0.0%            0   0.0%
+        97            0   0.0%            0   0.0%
+        98            0   0.0%            0   0.0%
+        99            0   0.0%            0   0.0%
+Total read count  =          0
+Total write count =          0
+=== :0 OBR communication statistical information ===
+response(ms)     size(KB)      count fcd_err rpm_err cpm_err warn
+         0.0          0.0          0       0       0       0    0
+Max remote write response time =        0.0ms
+Max remote write size          =        0.0KB
+=== :0 async OBR statistical information ===
+OBR sync reason            count
+cache size limit               0   0.0%
+interval time elapsed          0   0.0%
+I/O wait / CF change           0   0.0%
+Total sync command count                 =             0
+Total sync command response time         =         0.0ms
+Max sync command response time           =         0.0ms
+Total remote write count after last sync =             0
+Total remote write size after last sync  =         0.0KB
+Max remote write count before last sync  =             0
+Max remote write size before last sync   =         0.0KB
+Total remote write wait count            =             0
+=== :1 access summary information ===
+	 (KB)/s	  cmd/s	 rs(ms)	 HDD /s	         cmd   hit	         blk   hit	    que
+read	    0.0     0.0	    0.0	    2.0	           0   0.0	           0   0.0	    0.0
+write	    0.0     0.2	    0.0	    0.4	          13 100.0	          14 100.0	
+=== :1 transfer size information ===
+                 read               write          read-ahead   write-back
+<=   2KB            0   0.0%            0   0.0%            0            0 
+<=   8KB            0   0.0%            0   0.0%            0            0 
+<=  16KB            0   0.0%            0   0.0%            0            0 
+<=  32KB            0   0.0%            0   0.0%            0            0 
+<=  64KB            0   0.0%            0   0.0%            0            0 
+<= 128KB            0   0.0%            0   0.0%            0            2 
+<= 256KB            0   0.0%            0   0.0%            0            0 
+<= 512KB            0   0.0%            0   0.0%            0            1 
+<=   1MB            0   0.0%            0   0.0%            0            4 
+>    1MB            0   0.0%            0   0.0%            0            3 
+=== :1 response time information ===
+                read               write          read-ahead   write-back
+< 0.1ms            0   0.0%            0   0.0%            0            0 
+< 0.2ms            0   0.0%            0   0.0%            0            0 
+< 0.3ms            0   0.0%            0   0.0%            0            0 
+< 0.4ms            0   0.0%            0   0.0%            0            0 
+< 0.5ms            0   0.0%            0   0.0%            0            0 
+< 0.6ms            0   0.0%            0   0.0%            0            0 
+< 0.7ms            0   0.0%            0   0.0%            0            0 
+< 0.8ms            0   0.0%            0   0.0%            0            0 
+< 0.9ms            0   0.0%            0   0.0%            0            0 
+<   1ms            0   0.0%            0   0.0%            0            0 
+<   2ms            0   0.0%            0   0.0%            0            0 
+<   3ms            0   0.0%            0   0.0%            0            0 
+<   4ms            0   0.0%            0   0.0%            0            0 
+<   5ms            0   0.0%            0   0.0%            0            0 
+<   6ms            0   0.0%            0   0.0%            0            0 
+<   7ms            0   0.0%            0   0.0%            0            0 
+<   8ms            0   0.0%            0   0.0%            0            0 
+<   9ms            0   0.0%            0   0.0%            0            0 
+<  10ms            0   0.0%            0   0.0%            0            1 
+<  20ms            0   0.0%            0   0.0%            0            7 
+<  30ms            0   0.0%            0   0.0%            0            0 
+<  40ms            0   0.0%            0   0.0%            0            0 
+<  50ms            0   0.0%            0   0.0%            0            0 
+<  60ms            0   0.0%            0   0.0%            0            0 
+<  70ms            0   0.0%            0   0.0%            0            0 
+<  80ms            0   0.0%            0   0.0%            0            0 
+<  90ms            0   0.0%            0   0.0%            0            0 
+< 100ms            0   0.0%            0   0.0%            0            1 
+>=100ms            0   0.0%            0   0.0%            0            1 
+=== :1 distribution count information ===
+block area         read               write
+         0            0   0.0%            0   0.0%
+         1            0   0.0%            0   0.0%
+         2            0   0.0%            0   0.0%
+         3            0   0.0%            0   0.0%
+         4            0   0.0%            0   0.0%
+         5            0   0.0%            0   0.0%
+         6            0   0.0%            0   0.0%
+         7            0   0.0%            0   0.0%
+         8            0   0.0%            0   0.0%
+         9            0   0.0%            0   0.0%
+        10            0   0.0%            0   0.0%
+        11            0   0.0%            0   0.0%
+        12            0   0.0%            0   0.0%
+        13            0   0.0%            0   0.0%
+        14            0   0.0%            0   0.0%
+        15            0   0.0%            0   0.0%
+        16            0   0.0%            0   0.0%
+        17            0   0.0%            0   0.0%
+        18            0   0.0%            0   0.0%
+        19            0   0.0%            0   0.0%
+        20            0   0.0%            0   0.0%
+        21            0   0.0%            0   0.0%
+        22            0   0.0%            0   0.0%
+        23            0   0.0%            0   0.0%
+        24            0   0.0%            0   0.0%
+        25            0   0.0%            0   0.0%
+        26            0   0.0%            0   0.0%
+        27            0   0.0%            0   0.0%
+        28            0   0.0%            0   0.0%
+        29            0   0.0%            0   0.0%
+        30            0   0.0%            0   0.0%
+        31            0   0.0%            0   0.0%
+        32            0   0.0%            0   0.0%
+        33            0   0.0%            0   0.0%
+        34            0   0.0%            0   0.0%
+        35            0   0.0%            0   0.0%
+        36            0   0.0%            0   0.0%
+        37            0   0.0%            0   0.0%
+        38            0   0.0%            0   0.0%
+        39            0   0.0%            0   0.0%
+        40            0   0.0%            0   0.0%
+        41            0   0.0%            0   0.0%
+        42            0   0.0%            0   0.0%
+        43            0   0.0%            0   0.0%
+        44            0   0.0%            0   0.0%
+        45            0   0.0%            0   0.0%
+        46            0   0.0%            0   0.0%
+        47            0   0.0%            0   0.0%
+        48            0   0.0%            0   0.0%
+        49            0   0.0%            0   0.0%
+        50            0   0.0%            0   0.0%
+        51            0   0.0%            0   0.0%
+        52            0   0.0%            0   0.0%
+        53            0   0.0%            0   0.0%
+        54            0   0.0%            0   0.0%
+        55            0   0.0%            0   0.0%
+        56            0   0.0%            0   0.0%
+        57            0   0.0%            0   0.0%
+        58            0   0.0%            0   0.0%
+        59            0   0.0%            0   0.0%
+        60            0   0.0%            0   0.0%
+        61            0   0.0%            0   0.0%
+        62            0   0.0%            0   0.0%
+        63            0   0.0%            0   0.0%
+        64            0   0.0%            0   0.0%
+        65            0   0.0%            0   0.0%
+        66            0   0.0%            0   0.0%
+        67            0   0.0%            0   0.0%
+        68            0   0.0%            0   0.0%
+        69            0   0.0%            0   0.0%
+        70            0   0.0%            0   0.0%
+        71            0   0.0%            0   0.0%
+        72            0   0.0%            0   0.0%
+        73            0   0.0%            0   0.0%
+        74            0   0.0%            0   0.0%
+        75            0   0.0%            0   0.0%
+        76            0   0.0%            0   0.0%
+        77            0   0.0%            0   0.0%
+        78            0   0.0%            0   0.0%
+        79            0   0.0%            0   0.0%
+        80            0   0.0%            0   0.0%
+        81            0   0.0%            0   0.0%
+        82            0   0.0%            0   0.0%
+        83            0   0.0%            0   0.0%
+        84            0   0.0%            0   0.0%
+        85            0   0.0%            0   0.0%
+        86            0   0.0%            0   0.0%
+        87            0   0.0%            0   0.0%
+        88            0   0.0%            0   0.0%
+        89            0   0.0%            0   0.0%
+        90            0   0.0%            0   0.0%
+        91            0   0.0%            0   0.0%
+        92            0   0.0%            0   0.0%
+        93            0   0.0%            0   0.0%
+        94            0   0.0%            0   0.0%
+        95            0   0.0%            0   0.0%
+        96            0   0.0%            0   0.0%
+        97            0   0.0%            0   0.0%
+        98            0   0.0%            0   0.0%
+        99            0   0.0%            0   0.0%
+Total read count  =          0
+Total write count =          0
+=== :1 OBR communication statistical information ===
+response(ms)     size(KB)      count fcd_err rpm_err cpm_err warn
+         0.0          0.0          0       0       0       0    0
+Max remote write response time =        0.0ms
+Max remote write size          =        0.0KB
+=== :1 async OBR statistical information ===
+OBR sync reason            count
+cache size limit               0   0.0%
+interval time elapsed          0   0.0%
+I/O wait / CF change           0   0.0%
+Total sync command count                 =             0
+Total sync command response time         =         0.0ms
+Max sync command response time           =         0.0ms
+Total remote write count after last sync =             0
+Total remote write size after last sync  =         0.0KB
+Max remote write count before last sync  =             0
+Max remote write size before last sync   =         0.0KB
+Total remote write wait count            =             0
+=== 56716d40(0:1) RAID Group: 0 HDD access information ===
+HDD No       read      write  read total response  write total response
+     3        0.0        0.0                 0.00                  0.00 
+     4        0.0        0.0                 0.00                  0.00 
+     5        0.0        0.0                 0.00                  0.00 
+     6        0.0        0.0                 0.00                  0.00 
+     7        0.0        0.0                 0.00                  0.00 
+     8        0.0        0.0                 0.00                  0.00 
+     9        0.0        0.0                 0.00                  0.00 
+    10        0.0        0.0                 0.00                  0.00 
+    11        0.0        0.0                 0.00                  0.00 
+    12        0.0        0.0                 0.00                  0.00 
+=== HDD 3 response time information ===
+                  read                 write
+<  50ms           0.00   0.0%           0.00   0.0%
+< 100ms           0.00   0.0%           0.00   0.0%
+< 200ms           0.00   0.0%           0.00   0.0%
+< 500ms           0.00   0.0%           0.00   0.0%
+<   1ms           0.00   0.0%           0.00   0.0%
+<   3ms           0.00   0.0%           0.00   0.0%
+<    5s           0.00   0.0%           0.00   0.0%
+>=   5s           0.00   0.0%           0.00   0.0%
+Read time worst  =        513ms
+Write time worst =        129ms
+=== HDD 4 response time information ===
+                  read                 write
+<  50ms           0.00   0.0%           0.00   0.0%
+< 100ms           0.00   0.0%           0.00   0.0%
+< 200ms           0.00   0.0%           0.00   0.0%
+< 500ms           0.00   0.0%           0.00   0.0%
+<   1ms           0.00   0.0%           0.00   0.0%
+<   3ms           0.00   0.0%           0.00   0.0%
+<    5s           0.00   0.0%           0.00   0.0%
+>=   5s           0.00   0.0%           0.00   0.0%
+Read time worst  =         21ms
+Write time worst =         31ms
+=== HDD 5 response time information ===
+                  read                 write
+<  50ms           0.00   0.0%           0.00   0.0%
+< 100ms           0.00   0.0%           0.00   0.0%
+< 200ms           0.00   0.0%           0.00   0.0%
+< 500ms           0.00   0.0%           0.00   0.0%
+<   1ms           0.00   0.0%           0.00   0.0%
+<   3ms           0.00   0.0%           0.00   0.0%
+<    5s           0.00   0.0%           0.00   0.0%
+>=   5s           0.00   0.0%           0.00   0.0%
+Read time worst  =         18ms
+Write time worst =         17ms
+=== HDD 6 response time information ===
+                  read                 write
+<  50ms           0.00   0.0%           0.00   0.0%
+< 100ms           0.00   0.0%           0.00   0.0%
+< 200ms           0.00   0.0%           0.00   0.0%
+< 500ms           0.00   0.0%           0.00   0.0%
+<   1ms           0.00   0.0%           0.00   0.0%
+<   3ms           0.00   0.0%           0.00   0.0%
+<    5s           0.00   0.0%           0.00   0.0%
+>=   5s           0.00   0.0%           0.00   0.0%
+Read time worst  =         90ms
+Write time worst =        103ms
+=== HDD 7 response time information ===
+                  read                 write
+<  50ms           0.00   0.0%           0.00   0.0%
+< 100ms           0.00   0.0%           0.00   0.0%
+< 200ms           0.00   0.0%           0.00   0.0%
+< 500ms           0.00   0.0%           0.00   0.0%
+<   1ms           0.00   0.0%           0.00   0.0%
+<   3ms           0.00   0.0%           0.00   0.0%
+<    5s           0.00   0.0%           0.00   0.0%
+>=   5s           0.00   0.0%           0.00   0.0%
+Read time worst  =         97ms
+Write time worst =        115ms
+=== HDD 8 response time information ===
+                  read                 write
+<  50ms           0.00   0.0%           0.00   0.0%
+< 100ms           0.00   0.0%           0.00   0.0%
+< 200ms           0.00   0.0%           0.00   0.0%
+< 500ms           0.00   0.0%           0.00   0.0%
+<   1ms           0.00   0.0%           0.00   0.0%
+<   3ms           0.00   0.0%           0.00   0.0%
+<    5s           0.00   0.0%           0.00   0.0%
+>=   5s           0.00   0.0%           0.00   0.0%
+Read time worst  =         95ms
+Write time worst =        120ms
+=== HDD 9 response time information ===
+                  read                 write
+<  50ms           0.00   0.0%           0.00   0.0%
+< 100ms           0.00   0.0%           0.00   0.0%
+< 200ms           0.00   0.0%           0.00   0.0%
+< 500ms           0.00   0.0%           0.00   0.0%
+<   1ms           0.00   0.0%           0.00   0.0%
+<   3ms           0.00   0.0%           0.00   0.0%
+<    5s           0.00   0.0%           0.00   0.0%
+>=   5s           0.00   0.0%           0.00   0.0%
+Read time worst  =        105ms
+Write time worst =        104ms
+=== HDD 10 response time information ===
+                  read                 write
+<  50ms           0.00   0.0%           0.00   0.0%
+< 100ms           0.00   0.0%           0.00   0.0%
+< 200ms           0.00   0.0%           0.00   0.0%
+< 500ms           0.00   0.0%           0.00   0.0%
+<   1ms           0.00   0.0%           0.00   0.0%
+<   3ms           0.00   0.0%           0.00   0.0%
+<    5s           0.00   0.0%           0.00   0.0%
+>=   5s           0.00   0.0%           0.00   0.0%
+Read time worst  =         45ms
+Write time worst =        100ms
+=== HDD 11 response time information ===
+                  read                 write
+<  50ms           0.00   0.0%           0.00   0.0%
+< 100ms           0.00   0.0%           0.00   0.0%
+< 200ms           0.00   0.0%           0.00   0.0%
+< 500ms           0.00   0.0%           0.00   0.0%
+<   1ms           0.00   0.0%           0.00   0.0%
+<   3ms           0.00   0.0%           0.00   0.0%
+<    5s           0.00   0.0%           0.00   0.0%
+>=   5s           0.00   0.0%           0.00   0.0%
+Read time worst  =        405ms
+Write time worst =         14ms
+=== HDD 12 response time information ===
+                  read                 write
+<  50ms           0.00   0.0%           0.00   0.0%
+< 100ms           0.00   0.0%           0.00   0.0%
+< 200ms           0.00   0.0%           0.00   0.0%
+< 500ms           0.00   0.0%           0.00   0.0%
+<   1ms           0.00   0.0%           0.00   0.0%
+<   3ms           0.00   0.0%           0.00   0.0%
+<    5s           0.00   0.0%           0.00   0.0%
+>=   5s           0.00   0.0%           0.00   0.0%
+Read time worst  =         83ms
+Write time worst =        107ms
+=== 56716d40(0:1) RAID Group: 0 HDD transfer size information ===
+              read             write
+<   1KB          0   0.0%          0   0.0% 
+<   2KB          0   0.0%          0   0.0% 
+<   4KB          0   0.0%          0   0.0% 
+<   8KB          0   0.0%          0   0.0% 
+<  16KB          0   0.0%          0   0.0% 
+<  32KB          0   0.0%          0   0.0% 
+<  64KB          0   0.0%          0   0.0% 
+< 128KB          0   0.0%          0   0.0% 
+< 256KB          0   0.0%          0   0.0% 
+< 512KB          0   0.0%          0   0.0% 
+<   1MB          0   0.0%          0   0.0% 
+<   2MB          0   0.0%          0   0.0% 
+<   4MB          0   0.0%          0   0.0% 
+>=  4MB          0   0.0%          0   0.0% 
+Total read  transfer rate =        0.0KB/s
+Total write transfer rate =        0.0KB/s
+=== 56716d40(0:1) RAID Group: 0 HDD transfer rate information ===
+               read             write
+<  1MB/s          0   0.0%          0   0.0% 
+<  2MB/s          0   0.0%          0   0.0% 
+<  4MB/s          0   0.0%          0   0.0% 
+<  8MB/s          0   0.0%          0   0.0% 
+< 16MB/s          0   0.0%          0   0.0% 
+< 32MB/s          0   0.0%          0   0.0% 
+< 64MB/s          0   0.0%          0   0.0% 
+>=64MB/s          0   0.0%          0   0.0% 
+=== 56716d40(0:1) RAID Group: 1 HDD access information ===
+HDD No       read      write  read total response  write total response
+    24        0.2        0.0                 0.50                  0.10 
+    25        0.2        0.0                 0.50                  0.10 
+    26        0.2        0.0                 0.50                  0.00 
+    27        0.2        0.0                 0.50                  0.00 
+    28        0.2        0.1                 0.50                  0.35 
+    29        0.2        0.1                 0.55                  0.30 
+    30        0.2        0.0                 0.50                  0.00 
+    31        0.2        0.0                 0.50                  0.00 
+    32        0.2        0.0                 0.50                  0.10 
+    33        0.2        0.0                 0.50                  0.10 
+    34        0.2        0.0                 0.50                  0.10 
+    35        0.2        0.0                 0.50                  0.10 
+=== HDD 24 response time information ===
+                  read                 write
+<  50ms           0.50 100.0%           0.10 100.0%
+< 100ms           0.00   0.0%           0.00   0.0%
+< 200ms           0.00   0.0%           0.00   0.0%
+< 500ms           0.00   0.0%           0.00   0.0%
+<   1ms           0.00   0.0%           0.00   0.0%
+<   3ms           0.00   0.0%           0.00   0.0%
+<    5s           0.00   0.0%           0.00   0.0%
+>=   5s           0.00   0.0%           0.00   0.0%
+Read time worst  =        647ms
+Write time worst =        205ms
+=== HDD 25 response time information ===
+                  read                 write
+<  50ms           0.50 100.0%           0.10 100.0%
+< 100ms           0.00   0.0%           0.00   0.0%
+< 200ms           0.00   0.0%           0.00   0.0%
+< 500ms           0.00   0.0%           0.00   0.0%
+<   1ms           0.00   0.0%           0.00   0.0%
+<   3ms           0.00   0.0%           0.00   0.0%
+<    5s           0.00   0.0%           0.00   0.0%
+>=   5s           0.00   0.0%           0.00   0.0%
+Read time worst  =        508ms
+Write time worst =       1048ms
+=== HDD 26 response time information ===
+                  read                 write
+<  50ms           0.50 100.0%           0.00   0.0%
+< 100ms           0.00   0.0%           0.00   0.0%
+< 200ms           0.00   0.0%           0.00   0.0%
+< 500ms           0.00   0.0%           0.00   0.0%
+<   1ms           0.00   0.0%           0.00   0.0%
+<   3ms           0.00   0.0%           0.00   0.0%
+<    5s           0.00   0.0%           0.00   0.0%
+>=   5s           0.00   0.0%           0.00   0.0%
+Read time worst  =        591ms
+Write time worst =        162ms
+=== HDD 27 response time information ===
+                  read                 write
+<  50ms           0.50 100.0%           0.00   0.0%
+< 100ms           0.00   0.0%           0.00   0.0%
+< 200ms           0.00   0.0%           0.00   0.0%
+< 500ms           0.00   0.0%           0.00   0.0%
+<   1ms           0.00   0.0%           0.00   0.0%
+<   3ms           0.00   0.0%           0.00   0.0%
+<    5s           0.00   0.0%           0.00   0.0%
+>=   5s           0.00   0.0%           0.00   0.0%
+Read time worst  =        367ms
+Write time worst =        658ms
+=== HDD 28 response time information ===
+                  read                 write
+<  50ms           0.50 100.0%           0.15  60.0%
+< 100ms           0.00   0.0%           0.20  40.0%
+< 200ms           0.00   0.0%           0.00   0.0%
+< 500ms           0.00   0.0%           0.00   0.0%
+<   1ms           0.00   0.0%           0.00   0.0%
+<   3ms           0.00   0.0%           0.00   0.0%
+<    5s           0.00   0.0%           0.00   0.0%
+>=   5s           0.00   0.0%           0.00   0.0%
+Read time worst  =        873ms
+Write time worst =        187ms
+=== HDD 29 response time information ===
+                  read                 write
+<  50ms           0.55 100.0%           0.20  80.0%
+< 100ms           0.00   0.0%           0.10  20.0%
+< 200ms           0.00   0.0%           0.00   0.0%
+< 500ms           0.00   0.0%           0.00   0.0%
+<   1ms           0.00   0.0%           0.00   0.0%
+<   3ms           0.00   0.0%           0.00   0.0%
+<    5s           0.00   0.0%           0.00   0.0%
+>=   5s           0.00   0.0%           0.00   0.0%
+Read time worst  =        664ms
+Write time worst =        275ms
+=== HDD 30 response time information ===
+                  read                 write
+<  50ms           0.50 100.0%           0.00   0.0%
+< 100ms           0.00   0.0%           0.00   0.0%
+< 200ms           0.00   0.0%           0.00   0.0%
+< 500ms           0.00   0.0%           0.00   0.0%
+<   1ms           0.00   0.0%           0.00   0.0%
+<   3ms           0.00   0.0%           0.00   0.0%
+<    5s           0.00   0.0%           0.00   0.0%
+>=   5s           0.00   0.0%           0.00   0.0%
+Read time worst  =        653ms
+Write time worst =        127ms
+=== HDD 31 response time information ===
+                  read                 write
+<  50ms           0.50 100.0%           0.00   0.0%
+< 100ms           0.00   0.0%           0.00   0.0%
+< 200ms           0.00   0.0%           0.00   0.0%
+< 500ms           0.00   0.0%           0.00   0.0%
+<   1ms           0.00   0.0%           0.00   0.0%
+<   3ms           0.00   0.0%           0.00   0.0%
+<    5s           0.00   0.0%           0.00   0.0%
+>=   5s           0.00   0.0%           0.00   0.0%
+Read time worst  =        652ms
+Write time worst =        347ms
+=== HDD 32 response time information ===
+                  read                 write
+<  50ms           0.50 100.0%           0.10 100.0%
+< 100ms           0.00   0.0%           0.00   0.0%
+< 200ms           0.00   0.0%           0.00   0.0%
+< 500ms           0.00   0.0%           0.00   0.0%
+<   1ms           0.00   0.0%           0.00   0.0%
+<   3ms           0.00   0.0%           0.00   0.0%
+<    5s           0.00   0.0%           0.00   0.0%
+>=   5s           0.00   0.0%           0.00   0.0%
+Read time worst  =       2025ms
+Write time worst =        573ms
+=== HDD 33 response time information ===
+                  read                 write
+<  50ms           0.50 100.0%           0.10 100.0%
+< 100ms           0.00   0.0%           0.00   0.0%
+< 200ms           0.00   0.0%           0.00   0.0%
+< 500ms           0.00   0.0%           0.00   0.0%
+<   1ms           0.00   0.0%           0.00   0.0%
+<   3ms           0.00   0.0%           0.00   0.0%
+<    5s           0.00   0.0%           0.00   0.0%
+>=   5s           0.00   0.0%           0.00   0.0%
+Read time worst  =       1497ms
+Write time worst =       2023ms
+=== HDD 34 response time information ===
+                  read                 write
+<  50ms           0.50 100.0%           0.10 100.0%
+< 100ms           0.00   0.0%           0.00   0.0%
+< 200ms           0.00   0.0%           0.00   0.0%
+< 500ms           0.00   0.0%           0.00   0.0%
+<   1ms           0.00   0.0%           0.00   0.0%
+<   3ms           0.00   0.0%           0.00   0.0%
+<    5s           0.00   0.0%           0.00   0.0%
+>=   5s           0.00   0.0%           0.00   0.0%
+Read time worst  =        639ms
+Write time worst =        149ms
+=== HDD 35 response time information ===
+                  read                 write
+<  50ms           0.50 100.0%           0.10 100.0%
+< 100ms           0.00   0.0%           0.00   0.0%
+< 200ms           0.00   0.0%           0.00   0.0%
+< 500ms           0.00   0.0%           0.00   0.0%
+<   1ms           0.00   0.0%           0.00   0.0%
+<   3ms           0.00   0.0%           0.00   0.0%
+<    5s           0.00   0.0%           0.00   0.0%
+>=   5s           0.00   0.0%           0.00   0.0%
+Read time worst  =       2719ms
+Write time worst =        427ms
+=== 56716d40(0:1) RAID Group: 1 HDD transfer size information ===
+              read             write
+<   1KB          0   0.0%          0   0.0% 
+<   2KB          0   0.0%          0   0.0% 
+<   4KB          0   0.0%          0   0.0% 
+<   8KB          0   0.0%         16  72.7% 
+<  16KB          0   0.0%          2   9.1% 
+<  32KB          1   0.8%          2   9.1% 
+<  64KB          0   0.0%          2   9.1% 
+< 128KB          0   0.0%          0   0.0% 
+< 256KB          0   0.0%          0   0.0% 
+< 512KB          0   0.0%          0   0.0% 
+<   1MB        120  99.2%          0   0.0% 
+<   2MB          0   0.0%          0   0.0% 
+<   4MB          0   0.0%          0   0.0% 
+>=  4MB          0   0.0%          0   0.0% 
+Total read  transfer rate =     1024.3KB/s
+Total write transfer rate =        2.9KB/s
+=== 56716d40(0:1) RAID Group: 1 HDD transfer rate information ===
+               read             write
+<  1MB/s          0   0.0%          1   4.5% 
+<  2MB/s          0   0.0%          1   4.5% 
+<  4MB/s          0   0.0%          2   9.1% 
+<  8MB/s          0   0.0%          0   0.0% 
+< 16MB/s          0   0.0%          0   0.0% 
+< 32MB/s          3   2.5%          0   0.0% 
+< 64MB/s         38  31.4%          0   0.0% 
+>=64MB/s         79  65.3%          0   0.0% 
+=== 56716d40(0:1) write-back-cache schedule information ===
+schedule parameter	   schedule count	
+  10%        500ms	         0   0.0%	
+  20%        400ms	         0   0.0%	
+  30%        200ms	         0   0.0%	
+  40%        100ms	         0   0.0%	
+  50%         60ms	         0   0.0%	
+  60%         40ms	         0   0.0%	
+  70%         20ms	         0   0.0%	
+  80%         10ms	         0   0.0%	
+  90%          0ms	         0   0.0%	
+ 100%          0ms	         0   0.0%	
+=== :0 access summary information ===
+	 (KB)/s	  cmd/s	 rs(ms)	 HDD /s	         cmd   hit	         blk   hit	    que
+read	    0.0     0.0	    0.0	    0.0	           0   0.0	           0   0.0	
+write	    0.0     0.0	    0.0	    0.0	           0   0.0	           0   0.0	
+=== :0 transfer size information ===
+                 read               write          read-ahead   write-back
+<=   2KB            0   0.0%            0   0.0%            0            0 
+<=   8KB            0   0.0%            0   0.0%            0            0 
+<=  16KB            0   0.0%            0   0.0%            0            0 
+<=  32KB            0   0.0%            0   0.0%            0            0 
+<=  64KB            0   0.0%            0   0.0%            0            0 
+<= 128KB            0   0.0%            0   0.0%            0            0 
+<= 256KB            0   0.0%            0   0.0%            0            0 
+<= 512KB            0   0.0%            0   0.0%            0            0 
+<=   1MB            0   0.0%            0   0.0%            0            0 
+>    1MB            0   0.0%            0   0.0%            0            0 
+=== :0 response time information ===
+                read               write          read-ahead   write-back
+< 0.1ms            0   0.0%            0   0.0%            0            0 
+< 0.2ms            0   0.0%            0   0.0%            0            0 
+< 0.3ms            0   0.0%            0   0.0%            0            0 
+< 0.4ms            0   0.0%            0   0.0%            0            0 
+< 0.5ms            0   0.0%            0   0.0%            0            0 
+< 0.6ms            0   0.0%            0   0.0%            0            0 
+< 0.7ms            0   0.0%            0   0.0%            0            0 
+< 0.8ms            0   0.0%            0   0.0%            0            0 
+< 0.9ms            0   0.0%            0   0.0%            0            0 
+<   1ms            0   0.0%            0   0.0%            0            0 
+<   2ms            0   0.0%            0   0.0%            0            0 
+<   3ms            0   0.0%            0   0.0%            0            0 
+<   4ms            0   0.0%            0   0.0%            0            0 
+<   5ms            0   0.0%            0   0.0%            0            0 
+<   6ms            0   0.0%            0   0.0%            0            0 
+<   7ms            0   0.0%            0   0.0%            0            0 
+<   8ms            0   0.0%            0   0.0%            0            0 
+<   9ms            0   0.0%            0   0.0%            0            0 
+<  10ms            0   0.0%            0   0.0%            0            0 
+<  20ms            0   0.0%            0   0.0%            0            0 
+<  30ms            0   0.0%            0   0.0%            0            0 
+<  40ms            0   0.0%            0   0.0%            0            0 
+<  50ms            0   0.0%            0   0.0%            0            0 
+<  60ms            0   0.0%            0   0.0%            0            0 
+<  70ms            0   0.0%            0   0.0%            0            0 
+<  80ms            0   0.0%            0   0.0%            0            0 
+<  90ms            0   0.0%            0   0.0%            0            0 
+< 100ms            0   0.0%            0   0.0%            0            0 
+>=100ms            0   0.0%            0   0.0%            0            0 
+=== :0 distribution count information ===
+block area         read               write
+         0            0   0.0%            0   0.0%
+         1            0   0.0%            0   0.0%
+         2            0   0.0%            0   0.0%
+         3            0   0.0%            0   0.0%
+         4            0   0.0%            0   0.0%
+         5            0   0.0%            0   0.0%
+         6            0   0.0%            0   0.0%
+         7            0   0.0%            0   0.0%
+         8            0   0.0%            0   0.0%
+         9            0   0.0%            0   0.0%
+        10            0   0.0%            0   0.0%
+        11            0   0.0%            0   0.0%
+        12            0   0.0%            0   0.0%
+        13            0   0.0%            0   0.0%
+        14            0   0.0%            0   0.0%
+        15            0   0.0%            0   0.0%
+        16            0   0.0%            0   0.0%
+        17            0   0.0%            0   0.0%
+        18            0   0.0%            0   0.0%
+        19            0   0.0%            0   0.0%
+        20            0   0.0%            0   0.0%
+        21            0   0.0%            0   0.0%
+        22            0   0.0%            0   0.0%
+        23            0   0.0%            0   0.0%
+        24            0   0.0%            0   0.0%
+        25            0   0.0%            0   0.0%
+        26            0   0.0%            0   0.0%
+        27            0   0.0%            0   0.0%
+        28            0   0.0%            0   0.0%
+        29            0   0.0%            0   0.0%
+        30            0   0.0%            0   0.0%
+        31            0   0.0%            0   0.0%
+        32            0   0.0%            0   0.0%
+        33            0   0.0%            0   0.0%
+        34            0   0.0%            0   0.0%
+        35            0   0.0%            0   0.0%
+        36            0   0.0%            0   0.0%
+        37            0   0.0%            0   0.0%
+        38            0   0.0%            0   0.0%
+        39            0   0.0%            0   0.0%
+        40            0   0.0%            0   0.0%
+        41            0   0.0%            0   0.0%
+        42            0   0.0%            0   0.0%
+        43            0   0.0%            0   0.0%
+        44            0   0.0%            0   0.0%
+        45            0   0.0%            0   0.0%
+        46            0   0.0%            0   0.0%
+        47            0   0.0%            0   0.0%
+        48            0   0.0%            0   0.0%
+        49            0   0.0%            0   0.0%
+        50            0   0.0%            0   0.0%
+        51            0   0.0%            0   0.0%
+        52            0   0.0%            0   0.0%
+        53            0   0.0%            0   0.0%
+        54            0   0.0%            0   0.0%
+        55            0   0.0%            0   0.0%
+        56            0   0.0%            0   0.0%
+        57            0   0.0%            0   0.0%
+        58            0   0.0%            0   0.0%
+        59            0   0.0%            0   0.0%
+        60            0   0.0%            0   0.0%
+        61            0   0.0%            0   0.0%
+        62            0   0.0%            0   0.0%
+        63            0   0.0%            0   0.0%
+        64            0   0.0%            0   0.0%
+        65            0   0.0%            0   0.0%
+        66            0   0.0%            0   0.0%
+        67            0   0.0%            0   0.0%
+        68            0   0.0%            0   0.0%
+        69            0   0.0%            0   0.0%
+        70            0   0.0%            0   0.0%
+        71            0   0.0%            0   0.0%
+        72            0   0.0%            0   0.0%
+        73            0   0.0%            0   0.0%
+        74            0   0.0%            0   0.0%
+        75            0   0.0%            0   0.0%
+        76            0   0.0%            0   0.0%
+        77            0   0.0%            0   0.0%
+        78            0   0.0%            0   0.0%
+        79            0   0.0%            0   0.0%
+        80            0   0.0%            0   0.0%
+        81            0   0.0%            0   0.0%
+        82            0   0.0%            0   0.0%
+        83            0   0.0%            0   0.0%
+        84            0   0.0%            0   0.0%
+        85            0   0.0%            0   0.0%
+        86            0   0.0%            0   0.0%
+        87            0   0.0%            0   0.0%
+        88            0   0.0%            0   0.0%
+        89            0   0.0%            0   0.0%
+        90            0   0.0%            0   0.0%
+        91            0   0.0%            0   0.0%
+        92            0   0.0%            0   0.0%
+        93            0   0.0%            0   0.0%
+        94            0   0.0%            0   0.0%
+        95            0   0.0%            0   0.0%
+        96            0   0.0%            0   0.0%
+        97            0   0.0%            0   0.0%
+        98            0   0.0%            0   0.0%
+        99            0   0.0%            0   0.0%
+Total read count  =          0
+Total write count =          0
+=== :0 OBR communication statistical information ===
+response(ms)     size(KB)      count fcd_err rpm_err cpm_err warn
+         0.0          0.0          0       0       0       0    0
+Max remote write response time =        0.0ms
+Max remote write size          =        0.0KB
+=== :0 async OBR statistical information ===
+OBR sync reason            count
+cache size limit               0   0.0%
+interval time elapsed          0   0.0%
+I/O wait / CF change           0   0.0%
+Total sync command count                 =             0
+Total sync command response time         =         0.0ms
+Max sync command response time           =         0.0ms
+Total remote write count after last sync =             0
+Total remote write size after last sync  =         0.0KB
+Max remote write count before last sync  =             0
+Max remote write size before last sync   =         0.0KB
+Total remote write wait count            =             0
+=== :1 access summary information ===
+	 (KB)/s	  cmd/s	 rs(ms)	 HDD /s	         cmd   hit	         blk   hit	    que
+read	    0.0     0.0	    0.0	    2.0	           0   0.0	           0   0.0	
+write	    0.0     0.0	    0.0	    0.0	           0   0.0	           0   0.0	
+=== :1 transfer size information ===
+                 read               write          read-ahead   write-back
+<=   2KB            0   0.0%            0   0.0%            0            0 
+<=   8KB            0   0.0%            0   0.0%            0            0 
+<=  16KB            0   0.0%            0   0.0%            0            0 
+<=  32KB            0   0.0%            0   0.0%            0            0 
+<=  64KB            0   0.0%            0   0.0%            0            0 
+<= 128KB            0   0.0%            0   0.0%            0            0 
+<= 256KB            0   0.0%            0   0.0%            0            0 
+<= 512KB            0   0.0%            0   0.0%            0            0 
+<=   1MB            0   0.0%            0   0.0%            0            0 
+>    1MB            0   0.0%            0   0.0%            0            0 
+=== :1 response time information ===
+                read               write          read-ahead   write-back
+< 0.1ms            0   0.0%            0   0.0%            0            0 
+< 0.2ms            0   0.0%            0   0.0%            0            0 
+< 0.3ms            0   0.0%            0   0.0%            0            0 
+< 0.4ms            0   0.0%            0   0.0%            0            0 
+< 0.5ms            0   0.0%            0   0.0%            0            0 
+< 0.6ms            0   0.0%            0   0.0%            0            0 
+< 0.7ms            0   0.0%            0   0.0%            0            0 
+< 0.8ms            0   0.0%            0   0.0%            0            0 
+< 0.9ms            0   0.0%            0   0.0%            0            0 
+<   1ms            0   0.0%            0   0.0%            0            0 
+<   2ms            0   0.0%            0   0.0%            0            0 
+<   3ms            0   0.0%            0   0.0%            0            0 
+<   4ms            0   0.0%            0   0.0%            0            0 
+<   5ms            0   0.0%            0   0.0%            0            0 
+<   6ms            0   0.0%            0   0.0%            0            0 
+<   7ms            0   0.0%            0   0.0%            0            0 
+<   8ms            0   0.0%            0   0.0%            0            0 
+<   9ms            0   0.0%            0   0.0%            0            0 
+<  10ms            0   0.0%            0   0.0%            0            0 
+<  20ms            0   0.0%            0   0.0%            0            0 
+<  30ms            0   0.0%            0   0.0%            0            0 
+<  40ms            0   0.0%            0   0.0%            0            0 
+<  50ms            0   0.0%            0   0.0%            0            0 
+<  60ms            0   0.0%            0   0.0%            0            0 
+<  70ms            0   0.0%            0   0.0%            0            0 
+<  80ms            0   0.0%            0   0.0%            0            0 
+<  90ms            0   0.0%            0   0.0%            0            0 
+< 100ms            0   0.0%            0   0.0%            0            0 
+>=100ms            0   0.0%            0   0.0%            0            0 
+=== :1 distribution count information ===
+block area         read               write
+         0            0   0.0%            0   0.0%
+         1            0   0.0%            0   0.0%
+         2            0   0.0%            0   0.0%
+         3            0   0.0%            0   0.0%
+         4            0   0.0%            0   0.0%
+         5            0   0.0%            0   0.0%
+         6            0   0.0%            0   0.0%
+         7            0   0.0%            0   0.0%
+         8            0   0.0%            0   0.0%
+         9            0   0.0%            0   0.0%
+        10            0   0.0%            0   0.0%
+        11            0   0.0%            0   0.0%
+        12            0   0.0%            0   0.0%
+        13            0   0.0%            0   0.0%
+        14            0   0.0%            0   0.0%
+        15            0   0.0%            0   0.0%
+        16            0   0.0%            0   0.0%
+        17            0   0.0%            0   0.0%
+        18            0   0.0%            0   0.0%
+        19            0   0.0%            0   0.0%
+        20            0   0.0%            0   0.0%
+        21            0   0.0%            0   0.0%
+        22            0   0.0%            0   0.0%
+        23            0   0.0%            0   0.0%
+        24            0   0.0%            0   0.0%
+        25            0   0.0%            0   0.0%
+        26            0   0.0%            0   0.0%
+        27            0   0.0%            0   0.0%
+        28            0   0.0%            0   0.0%
+        29            0   0.0%            0   0.0%
+        30            0   0.0%            0   0.0%
+        31            0   0.0%            0   0.0%
+        32            0   0.0%            0   0.0%
+        33            0   0.0%            0   0.0%
+        34            0   0.0%            0   0.0%
+        35            0   0.0%            0   0.0%
+        36            0   0.0%            0   0.0%
+        37            0   0.0%            0   0.0%
+        38            0   0.0%            0   0.0%
+        39            0   0.0%            0   0.0%
+        40            0   0.0%            0   0.0%
+        41            0   0.0%            0   0.0%
+        42            0   0.0%            0   0.0%
+        43            0   0.0%            0   0.0%
+        44            0   0.0%            0   0.0%
+        45            0   0.0%            0   0.0%
+        46            0   0.0%            0   0.0%
+        47            0   0.0%            0   0.0%
+        48            0   0.0%            0   0.0%
+        49            0   0.0%            0   0.0%
+        50            0   0.0%            0   0.0%
+        51            0   0.0%            0   0.0%
+        52            0   0.0%            0   0.0%
+        53            0   0.0%            0   0.0%
+        54            0   0.0%            0   0.0%
+        55            0   0.0%            0   0.0%
+        56            0   0.0%            0   0.0%
+        57            0   0.0%            0   0.0%
+        58            0   0.0%            0   0.0%
+        59            0   0.0%            0   0.0%
+        60            0   0.0%            0   0.0%
+        61            0   0.0%            0   0.0%
+        62            0   0.0%            0   0.0%
+        63            0   0.0%            0   0.0%
+        64            0   0.0%            0   0.0%
+        65            0   0.0%            0   0.0%
+        66            0   0.0%            0   0.0%
+        67            0   0.0%            0   0.0%
+        68            0   0.0%            0   0.0%
+        69            0   0.0%            0   0.0%
+        70            0   0.0%            0   0.0%
+        71            0   0.0%            0   0.0%
+        72            0   0.0%            0   0.0%
+        73            0   0.0%            0   0.0%
+        74            0   0.0%            0   0.0%
+        75            0   0.0%            0   0.0%
+        76            0   0.0%            0   0.0%
+        77            0   0.0%            0   0.0%
+        78            0   0.0%            0   0.0%
+        79            0   0.0%            0   0.0%
+        80            0   0.0%            0   0.0%
+        81            0   0.0%            0   0.0%
+        82            0   0.0%            0   0.0%
+        83            0   0.0%            0   0.0%
+        84            0   0.0%            0   0.0%
+        85            0   0.0%            0   0.0%
+        86            0   0.0%            0   0.0%
+        87            0   0.0%            0   0.0%
+        88            0   0.0%            0   0.0%
+        89            0   0.0%            0   0.0%
+        90            0   0.0%            0   0.0%
+        91            0   0.0%            0   0.0%
+        92            0   0.0%            0   0.0%
+        93            0   0.0%            0   0.0%
+        94            0   0.0%            0   0.0%
+        95            0   0.0%            0   0.0%
+        96            0   0.0%            0   0.0%
+        97            0   0.0%            0   0.0%
+        98            0   0.0%            0   0.0%
+        99            0   0.0%            0   0.0%
+Total read count  =          0
+Total write count =          0
+=== :1 OBR communication statistical information ===
+response(ms)     size(KB)      count fcd_err rpm_err cpm_err warn
+         0.0          0.0          0       0       0       0    0
+Max remote write response time =        0.0ms
+Max remote write size          =        0.0KB
+=== :1 async OBR statistical information ===
+OBR sync reason            count
+cache size limit               0   0.0%
+interval time elapsed          0   0.0%
+I/O wait / CF change           0   0.0%
+Total sync command count                 =             0
+Total sync command response time         =         0.0ms
+Max sync command response time           =         0.0ms
+Total remote write count after last sync =             0
+Total remote write size after last sync  =         0.0KB
+Max remote write count before last sync  =             0
+Max remote write size before last sync   =         0.0KB
+Total remote write wait count            =             0
+=== 56716d40(0:1) RAID Group: 0 HDD access information ===
+HDD No       read      write  read total response  write total response
+     3        0.0        0.0                 0.00                  0.00 
+     4        0.0        0.0                 0.00                  0.00 
+     5        0.0        0.0                 0.00                  0.00 
+     6        0.0        0.0                 0.00                  0.00 
+     7        0.0        0.0                 0.00                  0.00 
+     8        0.0        0.0                 0.00                  0.00 
+     9        0.0        0.0                 0.00                  0.00 
+    10        0.0        0.0                 0.00                  0.00 
+    11        0.0        0.0                 0.00                  0.00 
+    12        0.0        0.0                 0.00                  0.00 
+=== HDD 3 response time information ===
+                  read                 write
+<  50ms           0.00   0.0%           0.00   0.0%
+< 100ms           0.00   0.0%           0.00   0.0%
+< 200ms           0.00   0.0%           0.00   0.0%
+< 500ms           0.00   0.0%           0.00   0.0%
+<   1ms           0.00   0.0%           0.00   0.0%
+<   3ms           0.00   0.0%           0.00   0.0%
+<    5s           0.00   0.0%           0.00   0.0%
+>=   5s           0.00   0.0%           0.00   0.0%
+Read time worst  =        513ms
+Write time worst =        129ms
+=== HDD 4 response time information ===
+                  read                 write
+<  50ms           0.00   0.0%           0.00   0.0%
+< 100ms           0.00   0.0%           0.00   0.0%
+< 200ms           0.00   0.0%           0.00   0.0%
+< 500ms           0.00   0.0%           0.00   0.0%
+<   1ms           0.00   0.0%           0.00   0.0%
+<   3ms           0.00   0.0%           0.00   0.0%
+<    5s           0.00   0.0%           0.00   0.0%
+>=   5s           0.00   0.0%           0.00   0.0%
+Read time worst  =         21ms
+Write time worst =         31ms
+=== HDD 5 response time information ===
+                  read                 write
+<  50ms           0.00   0.0%           0.00   0.0%
+< 100ms           0.00   0.0%           0.00   0.0%
+< 200ms           0.00   0.0%           0.00   0.0%
+< 500ms           0.00   0.0%           0.00   0.0%
+<   1ms           0.00   0.0%           0.00   0.0%
+<   3ms           0.00   0.0%           0.00   0.0%
+<    5s           0.00   0.0%           0.00   0.0%
+>=   5s           0.00   0.0%           0.00   0.0%
+Read time worst  =         18ms
+Write time worst =         17ms
+=== HDD 6 response time information ===
+                  read                 write
+<  50ms           0.00   0.0%           0.00   0.0%
+< 100ms           0.00   0.0%           0.00   0.0%
+< 200ms           0.00   0.0%           0.00   0.0%
+< 500ms           0.00   0.0%           0.00   0.0%
+<   1ms           0.00   0.0%           0.00   0.0%
+<   3ms           0.00   0.0%           0.00   0.0%
+<    5s           0.00   0.0%           0.00   0.0%
+>=   5s           0.00   0.0%           0.00   0.0%
+Read time worst  =         90ms
+Write time worst =        103ms
+=== HDD 7 response time information ===
+                  read                 write
+<  50ms           0.00   0.0%           0.00   0.0%
+< 100ms           0.00   0.0%           0.00   0.0%
+< 200ms           0.00   0.0%           0.00   0.0%
+< 500ms           0.00   0.0%           0.00   0.0%
+<   1ms           0.00   0.0%           0.00   0.0%
+<   3ms           0.00   0.0%           0.00   0.0%
+<    5s           0.00   0.0%           0.00   0.0%
+>=   5s           0.00   0.0%           0.00   0.0%
+Read time worst  =         97ms
+Write time worst =        115ms
+=== HDD 8 response time information ===
+                  read                 write
+<  50ms           0.00   0.0%           0.00   0.0%
+< 100ms           0.00   0.0%           0.00   0.0%
+< 200ms           0.00   0.0%           0.00   0.0%
+< 500ms           0.00   0.0%           0.00   0.0%
+<   1ms           0.00   0.0%           0.00   0.0%
+<   3ms           0.00   0.0%           0.00   0.0%
+<    5s           0.00   0.0%           0.00   0.0%
+>=   5s           0.00   0.0%           0.00   0.0%
+Read time worst  =         95ms
+Write time worst =        120ms
+=== HDD 9 response time information ===
+                  read                 write
+<  50ms           0.00   0.0%           0.00   0.0%
+< 100ms           0.00   0.0%           0.00   0.0%
+< 200ms           0.00   0.0%           0.00   0.0%
+< 500ms           0.00   0.0%           0.00   0.0%
+<   1ms           0.00   0.0%           0.00   0.0%
+<   3ms           0.00   0.0%           0.00   0.0%
+<    5s           0.00   0.0%           0.00   0.0%
+>=   5s           0.00   0.0%           0.00   0.0%
+Read time worst  =        105ms
+Write time worst =        104ms
+=== HDD 10 response time information ===
+                  read                 write
+<  50ms           0.00   0.0%           0.00   0.0%
+< 100ms           0.00   0.0%           0.00   0.0%
+< 200ms           0.00   0.0%           0.00   0.0%
+< 500ms           0.00   0.0%           0.00   0.0%
+<   1ms           0.00   0.0%           0.00   0.0%
+<   3ms           0.00   0.0%           0.00   0.0%
+<    5s           0.00   0.0%           0.00   0.0%
+>=   5s           0.00   0.0%           0.00   0.0%
+Read time worst  =         45ms
+Write time worst =        100ms
+=== HDD 11 response time information ===
+                  read                 write
+<  50ms           0.00   0.0%           0.00   0.0%
+< 100ms           0.00   0.0%           0.00   0.0%
+< 200ms           0.00   0.0%           0.00   0.0%
+< 500ms           0.00   0.0%           0.00   0.0%
+<   1ms           0.00   0.0%           0.00   0.0%
+<   3ms           0.00   0.0%           0.00   0.0%
+<    5s           0.00   0.0%           0.00   0.0%
+>=   5s           0.00   0.0%           0.00   0.0%
+Read time worst  =        405ms
+Write time worst =         14ms
+=== HDD 12 response time information ===
+                  read                 write
+<  50ms           0.00   0.0%           0.00   0.0%
+< 100ms           0.00   0.0%           0.00   0.0%
+< 200ms           0.00   0.0%           0.00   0.0%
+< 500ms           0.00   0.0%           0.00   0.0%
+<   1ms           0.00   0.0%           0.00   0.0%
+<   3ms           0.00   0.0%           0.00   0.0%
+<    5s           0.00   0.0%           0.00   0.0%
+>=   5s           0.00   0.0%           0.00   0.0%
+Read time worst  =         83ms
+Write time worst =        107ms
+=== 56716d40(0:1) RAID Group: 0 HDD transfer size information ===
+              read             write
+<   1KB          0   0.0%          0   0.0% 
+<   2KB          0   0.0%          0   0.0% 
+<   4KB          0   0.0%          0   0.0% 
+<   8KB          0   0.0%          0   0.0% 
+<  16KB          0   0.0%          0   0.0% 
+<  32KB          0   0.0%          0   0.0% 
+<  64KB          0   0.0%          0   0.0% 
+< 128KB          0   0.0%          0   0.0% 
+< 256KB          0   0.0%          0   0.0% 
+< 512KB          0   0.0%          0   0.0% 
+<   1MB          0   0.0%          0   0.0% 
+<   2MB          0   0.0%          0   0.0% 
+<   4MB          0   0.0%          0   0.0% 
+>=  4MB          0   0.0%          0   0.0% 
+Total read  transfer rate =        0.0KB/s
+Total write transfer rate =        0.0KB/s
+=== 56716d40(0:1) RAID Group: 0 HDD transfer rate information ===
+               read             write
+<  1MB/s          0   0.0%          0   0.0% 
+<  2MB/s          0   0.0%          0   0.0% 
+<  4MB/s          0   0.0%          0   0.0% 
+<  8MB/s          0   0.0%          0   0.0% 
+< 16MB/s          0   0.0%          0   0.0% 
+< 32MB/s          0   0.0%          0   0.0% 
+< 64MB/s          0   0.0%          0   0.0% 
+>=64MB/s          0   0.0%          0   0.0% 
+=== 56716d40(0:1) RAID Group: 1 HDD access information ===
+HDD No       read      write  read total response  write total response
+    24        0.2        0.0                 0.50                  0.00 
+    25        0.2        0.0                 0.50                  0.00 
+    26        0.2        0.0                 0.50                  0.00 
+    27        0.2        0.0                 0.50                  0.00 
+    28        0.2        0.0                 0.50                  0.00 
+    29        0.2        0.0                 0.50                  0.00 
+    30        0.2        0.0                 0.50                  0.00 
+    31        0.2        0.0                 0.50                  0.00 
+    32        0.2        0.0                 0.50                  0.00 
+    33        0.2        0.0                 0.50                  0.00 
+    34        0.2        0.0                 0.50                  0.00 
+    35        0.2        0.0                 0.50                  0.00 
+=== HDD 24 response time information ===
+                  read                 write
+<  50ms           0.50 100.0%           0.00   0.0%
+< 100ms           0.00   0.0%           0.00   0.0%
+< 200ms           0.00   0.0%           0.00   0.0%
+< 500ms           0.00   0.0%           0.00   0.0%
+<   1ms           0.00   0.0%           0.00   0.0%
+<   3ms           0.00   0.0%           0.00   0.0%
+<    5s           0.00   0.0%           0.00   0.0%
+>=   5s           0.00   0.0%           0.00   0.0%
+Read time worst  =        647ms
+Write time worst =        205ms
+=== HDD 25 response time information ===
+                  read                 write
+<  50ms           0.50 100.0%           0.00   0.0%
+< 100ms           0.00   0.0%           0.00   0.0%
+< 200ms           0.00   0.0%           0.00   0.0%
+< 500ms           0.00   0.0%           0.00   0.0%
+<   1ms           0.00   0.0%           0.00   0.0%
+<   3ms           0.00   0.0%           0.00   0.0%
+<    5s           0.00   0.0%           0.00   0.0%
+>=   5s           0.00   0.0%           0.00   0.0%
+Read time worst  =        508ms
+Write time worst =       1048ms
+=== HDD 26 response time information ===
+                  read                 write
+<  50ms           0.50 100.0%           0.00   0.0%
+< 100ms           0.00   0.0%           0.00   0.0%
+< 200ms           0.00   0.0%           0.00   0.0%
+< 500ms           0.00   0.0%           0.00   0.0%
+<   1ms           0.00   0.0%           0.00   0.0%
+<   3ms           0.00   0.0%           0.00   0.0%
+<    5s           0.00   0.0%           0.00   0.0%
+>=   5s           0.00   0.0%           0.00   0.0%
+Read time worst  =        591ms
+Write time worst =        162ms
+=== HDD 27 response time information ===
+                  read                 write
+<  50ms           0.50 100.0%           0.00   0.0%
+< 100ms           0.00   0.0%           0.00   0.0%
+< 200ms           0.00   0.0%           0.00   0.0%
+< 500ms           0.00   0.0%           0.00   0.0%
+<   1ms           0.00   0.0%           0.00   0.0%
+<   3ms           0.00   0.0%           0.00   0.0%
+<    5s           0.00   0.0%           0.00   0.0%
+>=   5s           0.00   0.0%           0.00   0.0%
+Read time worst  =        367ms
+Write time worst =        658ms
+=== HDD 28 response time information ===
+                  read                 write
+<  50ms           0.50 100.0%           0.00   0.0%
+< 100ms           0.00   0.0%           0.00   0.0%
+< 200ms           0.00   0.0%           0.00   0.0%
+< 500ms           0.00   0.0%           0.00   0.0%
+<   1ms           0.00   0.0%           0.00   0.0%
+<   3ms           0.00   0.0%           0.00   0.0%
+<    5s           0.00   0.0%           0.00   0.0%
+>=   5s           0.00   0.0%           0.00   0.0%
+Read time worst  =        873ms
+Write time worst =        187ms
+=== HDD 29 response time information ===
+                  read                 write
+<  50ms           0.50 100.0%           0.00   0.0%
+< 100ms           0.00   0.0%           0.00   0.0%
+< 200ms           0.00   0.0%           0.00   0.0%
+< 500ms           0.00   0.0%           0.00   0.0%
+<   1ms           0.00   0.0%           0.00   0.0%
+<   3ms           0.00   0.0%           0.00   0.0%
+<    5s           0.00   0.0%           0.00   0.0%
+>=   5s           0.00   0.0%           0.00   0.0%
+Read time worst  =        664ms
+Write time worst =        275ms
+=== HDD 30 response time information ===
+                  read                 write
+<  50ms           0.50 100.0%           0.00   0.0%
+< 100ms           0.00   0.0%           0.00   0.0%
+< 200ms           0.00   0.0%           0.00   0.0%
+< 500ms           0.00   0.0%           0.00   0.0%
+<   1ms           0.00   0.0%           0.00   0.0%
+<   3ms           0.00   0.0%           0.00   0.0%
+<    5s           0.00   0.0%           0.00   0.0%
+>=   5s           0.00   0.0%           0.00   0.0%
+Read time worst  =        653ms
+Write time worst =        127ms
+=== HDD 31 response time information ===
+                  read                 write
+<  50ms           0.50 100.0%           0.00   0.0%
+< 100ms           0.00   0.0%           0.00   0.0%
+< 200ms           0.00   0.0%           0.00   0.0%
+< 500ms           0.00   0.0%           0.00   0.0%
+<   1ms           0.00   0.0%           0.00   0.0%
+<   3ms           0.00   0.0%           0.00   0.0%
+<    5s           0.00   0.0%           0.00   0.0%
+>=   5s           0.00   0.0%           0.00   0.0%
+Read time worst  =        652ms
+Write time worst =        347ms
+=== HDD 32 response time information ===
+                  read                 write
+<  50ms           0.50 100.0%           0.00   0.0%
+< 100ms           0.00   0.0%           0.00   0.0%
+< 200ms           0.00   0.0%           0.00   0.0%
+< 500ms           0.00   0.0%           0.00   0.0%
+<   1ms           0.00   0.0%           0.00   0.0%
+<   3ms           0.00   0.0%           0.00   0.0%
+<    5s           0.00   0.0%           0.00   0.0%
+>=   5s           0.00   0.0%           0.00   0.0%
+Read time worst  =       2025ms
+Write time worst =        573ms
+=== HDD 33 response time information ===
+                  read                 write
+<  50ms           0.50 100.0%           0.00   0.0%
+< 100ms           0.00   0.0%           0.00   0.0%
+< 200ms           0.00   0.0%           0.00   0.0%
+< 500ms           0.00   0.0%           0.00   0.0%
+<   1ms           0.00   0.0%           0.00   0.0%
+<   3ms           0.00   0.0%           0.00   0.0%
+<    5s           0.00   0.0%           0.00   0.0%
+>=   5s           0.00   0.0%           0.00   0.0%
+Read time worst  =       1497ms
+Write time worst =       2023ms
+=== HDD 34 response time information ===
+                  read                 write
+<  50ms           0.50 100.0%           0.00   0.0%
+< 100ms           0.00   0.0%           0.00   0.0%
+< 200ms           0.00   0.0%           0.00   0.0%
+< 500ms           0.00   0.0%           0.00   0.0%
+<   1ms           0.00   0.0%           0.00   0.0%
+<   3ms           0.00   0.0%           0.00   0.0%
+<    5s           0.00   0.0%           0.00   0.0%
+>=   5s           0.00   0.0%           0.00   0.0%
+Read time worst  =        639ms
+Write time worst =        149ms
+=== HDD 35 response time information ===
+                  read                 write
+<  50ms           0.50 100.0%           0.00   0.0%
+< 100ms           0.00   0.0%           0.00   0.0%
+< 200ms           0.00   0.0%           0.00   0.0%
+< 500ms           0.00   0.0%           0.00   0.0%
+<   1ms           0.00   0.0%           0.00   0.0%
+<   3ms           0.00   0.0%           0.00   0.0%
+<    5s           0.00   0.0%           0.00   0.0%
+>=   5s           0.00   0.0%           0.00   0.0%
+Read time worst  =       2719ms
+Write time worst =        427ms
+=== 56716d40(0:1) RAID Group: 1 HDD transfer size information ===
+              read             write
+<   1KB          0   0.0%          0   0.0% 
+<   2KB          0   0.0%          0   0.0% 
+<   4KB          0   0.0%          0   0.0% 
+<   8KB          0   0.0%          0   0.0% 
+<  16KB          0   0.0%          0   0.0% 
+<  32KB          0   0.0%          0   0.0% 
+<  64KB          0   0.0%          0   0.0% 
+< 128KB          0   0.0%          0   0.0% 
+< 256KB          0   0.0%          0   0.0% 
+< 512KB          0   0.0%          0   0.0% 
+<   1MB        120 100.0%          0   0.0% 
+<   2MB          0   0.0%          0   0.0% 
+<   4MB          0   0.0%          0   0.0% 
+>=  4MB          0   0.0%          0   0.0% 
+Total read  transfer rate =     1007.2KB/s
+Total write transfer rate =        0.0KB/s
+=== 56716d40(0:1) RAID Group: 1 HDD transfer rate information ===
+               read             write
+<  1MB/s          0   0.0%          0   0.0% 
+<  2MB/s          0   0.0%          0   0.0% 
+<  4MB/s          0   0.0%          0   0.0% 
+<  8MB/s          0   0.0%          0   0.0% 
+< 16MB/s          0   0.0%          0   0.0% 
+< 32MB/s          0   0.0%          0   0.0% 
+< 64MB/s         41  34.2%          0   0.0% 
+>=64MB/s         79  65.8%          0   0.0% 
+=== 56716d40(0:1) write-back-cache schedule information ===
+schedule parameter	   schedule count	
+  10%        500ms	         0   0.0%	
+  20%        400ms	         0   0.0%	
+  30%        200ms	         0   0.0%	
+  40%        100ms	         0   0.0%	
+  50%         60ms	         0   0.0%	
+  60%         40ms	         0   0.0%	
+  70%         20ms	         0   0.0%	
+  80%         10ms	         0   0.0%	
+  90%          0ms	         0   0.0%	
+ 100%          0ms	         0   0.0%	
+=== :0 access summary information ===
+	 (KB)/s	  cmd/s	 rs(ms)	 HDD /s	         cmd   hit	         blk   hit	    que
+read	    0.0     0.0	    0.0	    0.0	           0   0.0	           0   0.0	
+write	    0.0     0.0	    0.0	    0.0	           0   0.0	           0   0.0	
+=== :0 transfer size information ===
+                 read               write          read-ahead   write-back
+<=   2KB            0   0.0%            0   0.0%            0            0 
+<=   8KB            0   0.0%            0   0.0%            0            0 
+<=  16KB            0   0.0%            0   0.0%            0            0 
+<=  32KB            0   0.0%            0   0.0%            0            0 
+<=  64KB            0   0.0%            0   0.0%            0            0 
+<= 128KB            0   0.0%            0   0.0%            0            0 
+<= 256KB            0   0.0%            0   0.0%            0            0 
+<= 512KB            0   0.0%            0   0.0%            0            0 
+<=   1MB            0   0.0%            0   0.0%            0            0 
+>    1MB            0   0.0%            0   0.0%            0            0 
+=== :0 response time information ===
+                read               write          read-ahead   write-back
+< 0.1ms            0   0.0%            0   0.0%            0            0 
+< 0.2ms            0   0.0%            0   0.0%            0            0 
+< 0.3ms            0   0.0%            0   0.0%            0            0 
+< 0.4ms            0   0.0%            0   0.0%            0            0 
+< 0.5ms            0   0.0%            0   0.0%            0            0 
+< 0.6ms            0   0.0%            0   0.0%            0            0 
+< 0.7ms            0   0.0%            0   0.0%            0            0 
+< 0.8ms            0   0.0%            0   0.0%            0            0 
+< 0.9ms            0   0.0%            0   0.0%            0            0 
+<   1ms            0   0.0%            0   0.0%            0            0 
+<   2ms            0   0.0%            0   0.0%            0            0 
+<   3ms            0   0.0%            0   0.0%            0            0 
+<   4ms            0   0.0%            0   0.0%            0            0 
+<   5ms            0   0.0%            0   0.0%            0            0 
+<   6ms            0   0.0%            0   0.0%            0            0 
+<   7ms            0   0.0%            0   0.0%            0            0 
+<   8ms            0   0.0%            0   0.0%            0            0 
+<   9ms            0   0.0%            0   0.0%            0            0 
+<  10ms            0   0.0%            0   0.0%            0            0 
+<  20ms            0   0.0%            0   0.0%            0            0 
+<  30ms            0   0.0%            0   0.0%            0            0 
+<  40ms            0   0.0%            0   0.0%            0            0 
+<  50ms            0   0.0%            0   0.0%            0            0 
+<  60ms            0   0.0%            0   0.0%            0            0 
+<  70ms            0   0.0%            0   0.0%            0            0 
+<  80ms            0   0.0%            0   0.0%            0            0 
+<  90ms            0   0.0%            0   0.0%            0            0 
+< 100ms            0   0.0%            0   0.0%            0            0 
+>=100ms            0   0.0%            0   0.0%            0            0 
+=== :0 distribution count information ===
+block area         read               write
+         0            0   0.0%            0   0.0%
+         1            0   0.0%            0   0.0%
+         2            0   0.0%            0   0.0%
+         3            0   0.0%            0   0.0%
+         4            0   0.0%            0   0.0%
+         5            0   0.0%            0   0.0%
+         6            0   0.0%            0   0.0%
+         7            0   0.0%            0   0.0%
+         8            0   0.0%            0   0.0%
+         9            0   0.0%            0   0.0%
+        10            0   0.0%            0   0.0%
+        11            0   0.0%            0   0.0%
+        12            0   0.0%            0   0.0%
+        13            0   0.0%            0   0.0%
+        14            0   0.0%            0   0.0%
+        15            0   0.0%            0   0.0%
+        16            0   0.0%            0   0.0%
+        17            0   0.0%            0   0.0%
+        18            0   0.0%            0   0.0%
+        19            0   0.0%            0   0.0%
+        20            0   0.0%            0   0.0%
+        21            0   0.0%            0   0.0%
+        22            0   0.0%            0   0.0%
+        23            0   0.0%            0   0.0%
+        24            0   0.0%            0   0.0%
+        25            0   0.0%            0   0.0%
+        26            0   0.0%            0   0.0%
+        27            0   0.0%            0   0.0%
+        28            0   0.0%            0   0.0%
+        29            0   0.0%            0   0.0%
+        30            0   0.0%            0   0.0%
+        31            0   0.0%            0   0.0%
+        32            0   0.0%            0   0.0%
+        33            0   0.0%            0   0.0%
+        34            0   0.0%            0   0.0%
+        35            0   0.0%            0   0.0%
+        36            0   0.0%            0   0.0%
+        37            0   0.0%            0   0.0%
+        38            0   0.0%            0   0.0%
+        39            0   0.0%            0   0.0%
+        40            0   0.0%            0   0.0%
+        41            0   0.0%            0   0.0%
+        42            0   0.0%            0   0.0%
+        43            0   0.0%            0   0.0%
+        44            0   0.0%            0   0.0%
+        45            0   0.0%            0   0.0%
+        46            0   0.0%            0   0.0%
+        47            0   0.0%            0   0.0%
+        48            0   0.0%            0   0.0%
+        49            0   0.0%            0   0.0%
+        50            0   0.0%            0   0.0%
+        51            0   0.0%            0   0.0%
+        52            0   0.0%            0   0.0%
+        53            0   0.0%            0   0.0%
+        54            0   0.0%            0   0.0%
+        55            0   0.0%            0   0.0%
+        56            0   0.0%            0   0.0%
+        57            0   0.0%            0   0.0%
+        58            0   0.0%            0   0.0%
+        59            0   0.0%            0   0.0%
+        60            0   0.0%            0   0.0%
+        61            0   0.0%            0   0.0%
+        62            0   0.0%            0   0.0%
+        63            0   0.0%            0   0.0%
+        64            0   0.0%            0   0.0%
+        65            0   0.0%            0   0.0%
+        66            0   0.0%            0   0.0%
+        67            0   0.0%            0   0.0%
+        68            0   0.0%            0   0.0%
+        69            0   0.0%            0   0.0%
+        70            0   0.0%            0   0.0%
+        71            0   0.0%            0   0.0%
+        72            0   0.0%            0   0.0%
+        73            0   0.0%            0   0.0%
+        74            0   0.0%            0   0.0%
+        75            0   0.0%            0   0.0%
+        76            0   0.0%            0   0.0%
+        77            0   0.0%            0   0.0%
+        78            0   0.0%            0   0.0%
+        79            0   0.0%            0   0.0%
+        80            0   0.0%            0   0.0%
+        81            0   0.0%            0   0.0%
+        82            0   0.0%            0   0.0%
+        83            0   0.0%            0   0.0%
+        84            0   0.0%            0   0.0%
+        85            0   0.0%            0   0.0%
+        86            0   0.0%            0   0.0%
+        87            0   0.0%            0   0.0%
+        88            0   0.0%            0   0.0%
+        89            0   0.0%            0   0.0%
+        90            0   0.0%            0   0.0%
+        91            0   0.0%            0   0.0%
+        92            0   0.0%            0   0.0%
+        93            0   0.0%            0   0.0%
+        94            0   0.0%            0   0.0%
+        95            0   0.0%            0   0.0%
+        96            0   0.0%            0   0.0%
+        97            0   0.0%            0   0.0%
+        98            0   0.0%            0   0.0%
+        99            0   0.0%            0   0.0%
+Total read count  =          0
+Total write count =          0
+=== :0 OBR communication statistical information ===
+response(ms)     size(KB)      count fcd_err rpm_err cpm_err warn
+         0.0          0.0          0       0       0       0    0
+Max remote write response time =        0.0ms
+Max remote write size          =        0.0KB
+=== :0 async OBR statistical information ===
+OBR sync reason            count
+cache size limit               0   0.0%
+interval time elapsed          0   0.0%
+I/O wait / CF change           0   0.0%
+Total sync command count                 =             0
+Total sync command response time         =         0.0ms
+Max sync command response time           =         0.0ms
+Total remote write count after last sync =             0
+Total remote write size after last sync  =         0.0KB
+Max remote write count before last sync  =             0
+Max remote write size before last sync   =         0.0KB
+Total remote write wait count            =             0
+=== :1 access summary information ===
+	 (KB)/s	  cmd/s	 rs(ms)	 HDD /s	         cmd   hit	         blk   hit	    que
+read	    0.0     0.0	    0.0	    2.0	           0   0.0	           0   0.0	
+write	    0.0     0.0	    0.0	    0.0	           0   0.0	           0   0.0	
+=== :1 transfer size information ===
+                 read               write          read-ahead   write-back
+<=   2KB            0   0.0%            0   0.0%            0            0 
+<=   8KB            0   0.0%            0   0.0%            0            0 
+<=  16KB            0   0.0%            0   0.0%            0            0 
+<=  32KB            0   0.0%            0   0.0%            0            0 
+<=  64KB            0   0.0%            0   0.0%            0            0 
+<= 128KB            0   0.0%            0   0.0%            0            0 
+<= 256KB            0   0.0%            0   0.0%            0            0 
+<= 512KB            0   0.0%            0   0.0%            0            0 
+<=   1MB            0   0.0%            0   0.0%            0            0 
+>    1MB            0   0.0%            0   0.0%            0            0 
+=== :1 response time information ===
+                read               write          read-ahead   write-back
+< 0.1ms            0   0.0%            0   0.0%            0            0 
+< 0.2ms            0   0.0%            0   0.0%            0            0 
+< 0.3ms            0   0.0%            0   0.0%            0            0 
+< 0.4ms            0   0.0%            0   0.0%            0            0 
+< 0.5ms            0   0.0%            0   0.0%            0            0 
+< 0.6ms            0   0.0%            0   0.0%            0            0 
+< 0.7ms            0   0.0%            0   0.0%            0            0 
+< 0.8ms            0   0.0%            0   0.0%            0            0 
+< 0.9ms            0   0.0%            0   0.0%            0            0 
+<   1ms            0   0.0%            0   0.0%            0            0 
+<   2ms            0   0.0%            0   0.0%            0            0 
+<   3ms            0   0.0%            0   0.0%            0            0 
+<   4ms            0   0.0%            0   0.0%            0            0 
+<   5ms            0   0.0%            0   0.0%            0            0 
+<   6ms            0   0.0%            0   0.0%            0            0 
+<   7ms            0   0.0%            0   0.0%            0            0 
+<   8ms            0   0.0%            0   0.0%            0            0 
+<   9ms            0   0.0%            0   0.0%            0            0 
+<  10ms            0   0.0%            0   0.0%            0            0 
+<  20ms            0   0.0%            0   0.0%            0            0 
+<  30ms            0   0.0%            0   0.0%            0            0 
+<  40ms            0   0.0%            0   0.0%            0            0 
+<  50ms            0   0.0%            0   0.0%            0            0 
+<  60ms            0   0.0%            0   0.0%            0            0 
+<  70ms            0   0.0%            0   0.0%            0            0 
+<  80ms            0   0.0%            0   0.0%            0            0 
+<  90ms            0   0.0%            0   0.0%            0            0 
+< 100ms            0   0.0%            0   0.0%            0            0 
+>=100ms            0   0.0%            0   0.0%            0            0 
+=== :1 distribution count information ===
+block area         read               write
+         0            0   0.0%            0   0.0%
+         1            0   0.0%            0   0.0%
+         2            0   0.0%            0   0.0%
+         3            0   0.0%            0   0.0%
+         4            0   0.0%            0   0.0%
+         5            0   0.0%            0   0.0%
+         6            0   0.0%            0   0.0%
+         7            0   0.0%            0   0.0%
+         8            0   0.0%            0   0.0%
+         9            0   0.0%            0   0.0%
+        10            0   0.0%            0   0.0%
+        11            0   0.0%            0   0.0%
+        12            0   0.0%            0   0.0%
+        13            0   0.0%            0   0.0%
+        14            0   0.0%            0   0.0%
+        15            0   0.0%            0   0.0%
+        16            0   0.0%            0   0.0%
+        17            0   0.0%            0   0.0%
+        18            0   0.0%            0   0.0%
+        19            0   0.0%            0   0.0%
+        20            0   0.0%            0   0.0%
+        21            0   0.0%            0   0.0%
+        22            0   0.0%            0   0.0%
+        23            0   0.0%            0   0.0%
+        24            0   0.0%            0   0.0%
+        25            0   0.0%            0   0.0%
+        26            0   0.0%            0   0.0%
+        27            0   0.0%            0   0.0%
+        28            0   0.0%            0   0.0%
+        29            0   0.0%            0   0.0%
+        30            0   0.0%            0   0.0%
+        31            0   0.0%            0   0.0%
+        32            0   0.0%            0   0.0%
+        33            0   0.0%            0   0.0%
+        34            0   0.0%            0   0.0%
+        35            0   0.0%            0   0.0%
+        36            0   0.0%            0   0.0%
+        37            0   0.0%            0   0.0%
+        38            0   0.0%            0   0.0%
+        39            0   0.0%            0   0.0%
+        40            0   0.0%            0   0.0%
+        41            0   0.0%            0   0.0%
+        42            0   0.0%            0   0.0%
+        43            0   0.0%            0   0.0%
+        44            0   0.0%            0   0.0%
+        45            0   0.0%            0   0.0%
+        46            0   0.0%            0   0.0%
+        47            0   0.0%            0   0.0%
+        48            0   0.0%            0   0.0%
+        49            0   0.0%            0   0.0%
+        50            0   0.0%            0   0.0%
+        51            0   0.0%            0   0.0%
+        52            0   0.0%            0   0.0%
+        53            0   0.0%            0   0.0%
+        54            0   0.0%            0   0.0%
+        55            0   0.0%            0   0.0%
+        56            0   0.0%            0   0.0%
+        57            0   0.0%            0   0.0%
+        58            0   0.0%            0   0.0%
+        59            0   0.0%            0   0.0%
+        60            0   0.0%            0   0.0%
+        61            0   0.0%            0   0.0%
+        62            0   0.0%            0   0.0%
+        63            0   0.0%            0   0.0%
+        64            0   0.0%            0   0.0%
+        65            0   0.0%            0   0.0%
+        66            0   0.0%            0   0.0%
+        67            0   0.0%            0   0.0%
+        68            0   0.0%            0   0.0%
+        69            0   0.0%            0   0.0%
+        70            0   0.0%            0   0.0%
+        71            0   0.0%            0   0.0%
+        72            0   0.0%            0   0.0%
+        73            0   0.0%            0   0.0%
+        74            0   0.0%            0   0.0%
+        75            0   0.0%            0   0.0%
+        76            0   0.0%            0   0.0%
+        77            0   0.0%            0   0.0%
+        78            0   0.0%            0   0.0%
+        79            0   0.0%            0   0.0%
+        80            0   0.0%            0   0.0%
+        81            0   0.0%            0   0.0%
+        82            0   0.0%            0   0.0%
+        83            0   0.0%            0   0.0%
+        84            0   0.0%            0   0.0%
+        85            0   0.0%            0   0.0%
+        86            0   0.0%            0   0.0%
+        87            0   0.0%            0   0.0%
+        88            0   0.0%            0   0.0%
+        89            0   0.0%            0   0.0%
+        90            0   0.0%            0   0.0%
+        91            0   0.0%            0   0.0%
+        92            0   0.0%            0   0.0%
+        93            0   0.0%            0   0.0%
+        94            0   0.0%            0   0.0%
+        95            0   0.0%            0   0.0%
+        96            0   0.0%            0   0.0%
+        97            0   0.0%            0   0.0%
+        98            0   0.0%            0   0.0%
+        99            0   0.0%            0   0.0%
+Total read count  =          0
+Total write count =          0
+=== :1 OBR communication statistical information ===
+response(ms)     size(KB)      count fcd_err rpm_err cpm_err warn
+         0.0          0.0          0       0       0       0    0
+Max remote write response time =        0.0ms
+Max remote write size          =        0.0KB
+=== :1 async OBR statistical information ===
+OBR sync reason            count
+cache size limit               0   0.0%
+interval time elapsed          0   0.0%
+I/O wait / CF change           0   0.0%
+Total sync command count                 =             0
+Total sync command response time         =         0.0ms
+Max sync command response time           =         0.0ms
+Total remote write count after last sync =             0
+Total remote write size after last sync  =         0.0KB
+Max remote write count before last sync  =             0
+Max remote write size before last sync   =         0.0KB
+Total remote write wait count            =             0
+=== 56716d40(0:1) RAID Group: 0 HDD access information ===
+HDD No       read      write  read total response  write total response
+     3        0.0        0.0                 0.00                  0.00 
+     4        0.0        0.0                 0.00                  0.00 
+     5        0.0        0.0                 0.00                  0.00 
+     6        0.0        0.0                 0.00                  0.00 
+     7        0.0        0.0                 0.00                  0.00 
+     8        0.0        0.0                 0.00                  0.00 
+     9        0.0        0.0                 0.00                  0.00 
+    10        0.0        0.0                 0.00                  0.00 
+    11        0.0        0.0                 0.00                  0.00 
+    12        0.0        0.0                 0.00                  0.00 
+=== HDD 3 response time information ===
+                  read                 write
+<  50ms           0.00   0.0%           0.00   0.0%
+< 100ms           0.00   0.0%           0.00   0.0%
+< 200ms           0.00   0.0%           0.00   0.0%
+< 500ms           0.00   0.0%           0.00   0.0%
+<   1ms           0.00   0.0%           0.00   0.0%
+<   3ms           0.00   0.0%           0.00   0.0%
+<    5s           0.00   0.0%           0.00   0.0%
+>=   5s           0.00   0.0%           0.00   0.0%
+Read time worst  =        513ms
+Write time worst =        129ms
+=== HDD 4 response time information ===
+                  read                 write
+<  50ms           0.00   0.0%           0.00   0.0%
+< 100ms           0.00   0.0%           0.00   0.0%
+< 200ms           0.00   0.0%           0.00   0.0%
+< 500ms           0.00   0.0%           0.00   0.0%
+<   1ms           0.00   0.0%           0.00   0.0%
+<   3ms           0.00   0.0%           0.00   0.0%
+<    5s           0.00   0.0%           0.00   0.0%
+>=   5s           0.00   0.0%           0.00   0.0%
+Read time worst  =         21ms
+Write time worst =         31ms
+=== HDD 5 response time information ===
+                  read                 write
+<  50ms           0.00   0.0%           0.00   0.0%
+< 100ms           0.00   0.0%           0.00   0.0%
+< 200ms           0.00   0.0%           0.00   0.0%
+< 500ms           0.00   0.0%           0.00   0.0%
+<   1ms           0.00   0.0%           0.00   0.0%
+<   3ms           0.00   0.0%           0.00   0.0%
+<    5s           0.00   0.0%           0.00   0.0%
+>=   5s           0.00   0.0%           0.00   0.0%
+Read time worst  =         18ms
+Write time worst =         17ms
+=== HDD 6 response time information ===
+                  read                 write
+<  50ms           0.00   0.0%           0.00   0.0%
+< 100ms           0.00   0.0%           0.00   0.0%
+< 200ms           0.00   0.0%           0.00   0.0%
+< 500ms           0.00   0.0%           0.00   0.0%
+<   1ms           0.00   0.0%           0.00   0.0%
+<   3ms           0.00   0.0%           0.00   0.0%
+<    5s           0.00   0.0%           0.00   0.0%
+>=   5s           0.00   0.0%           0.00   0.0%
+Read time worst  =         90ms
+Write time worst =        103ms
+=== HDD 7 response time information ===
+                  read                 write
+<  50ms           0.00   0.0%           0.00   0.0%
+< 100ms           0.00   0.0%           0.00   0.0%
+< 200ms           0.00   0.0%           0.00   0.0%
+< 500ms           0.00   0.0%           0.00   0.0%
+<   1ms           0.00   0.0%           0.00   0.0%
+<   3ms           0.00   0.0%           0.00   0.0%
+<    5s           0.00   0.0%           0.00   0.0%
+>=   5s           0.00   0.0%           0.00   0.0%
+Read time worst  =         97ms
+Write time worst =        115ms
+=== HDD 8 response time information ===
+                  read                 write
+<  50ms           0.00   0.0%           0.00   0.0%
+< 100ms           0.00   0.0%           0.00   0.0%
+< 200ms           0.00   0.0%           0.00   0.0%
+< 500ms           0.00   0.0%           0.00   0.0%
+<   1ms           0.00   0.0%           0.00   0.0%
+<   3ms           0.00   0.0%           0.00   0.0%
+<    5s           0.00   0.0%           0.00   0.0%
+>=   5s           0.00   0.0%           0.00   0.0%
+Read time worst  =         95ms
+Write time worst =        120ms
+=== HDD 9 response time information ===
+                  read                 write
+<  50ms           0.00   0.0%           0.00   0.0%
+< 100ms           0.00   0.0%           0.00   0.0%
+< 200ms           0.00   0.0%           0.00   0.0%
+< 500ms           0.00   0.0%           0.00   0.0%
+<   1ms           0.00   0.0%           0.00   0.0%
+<   3ms           0.00   0.0%           0.00   0.0%
+<    5s           0.00   0.0%           0.00   0.0%
+>=   5s           0.00   0.0%           0.00   0.0%
+Read time worst  =        105ms
+Write time worst =        104ms
+=== HDD 10 response time information ===
+                  read                 write
+<  50ms           0.00   0.0%           0.00   0.0%
+< 100ms           0.00   0.0%           0.00   0.0%
+< 200ms           0.00   0.0%           0.00   0.0%
+< 500ms           0.00   0.0%           0.00   0.0%
+<   1ms           0.00   0.0%           0.00   0.0%
+<   3ms           0.00   0.0%           0.00   0.0%
+<    5s           0.00   0.0%           0.00   0.0%
+>=   5s           0.00   0.0%           0.00   0.0%
+Read time worst  =         45ms
+Write time worst =        100ms
+=== HDD 11 response time information ===
+                  read                 write
+<  50ms           0.00   0.0%           0.00   0.0%
+< 100ms           0.00   0.0%           0.00   0.0%
+< 200ms           0.00   0.0%           0.00   0.0%
+< 500ms           0.00   0.0%           0.00   0.0%
+<   1ms           0.00   0.0%           0.00   0.0%
+<   3ms           0.00   0.0%           0.00   0.0%
+<    5s           0.00   0.0%           0.00   0.0%
+>=   5s           0.00   0.0%           0.00   0.0%
+Read time worst  =        405ms
+Write time worst =         14ms
+=== HDD 12 response time information ===
+                  read                 write
+<  50ms           0.00   0.0%           0.00   0.0%
+< 100ms           0.00   0.0%           0.00   0.0%
+< 200ms           0.00   0.0%           0.00   0.0%
+< 500ms           0.00   0.0%           0.00   0.0%
+<   1ms           0.00   0.0%           0.00   0.0%
+<   3ms           0.00   0.0%           0.00   0.0%
+<    5s           0.00   0.0%           0.00   0.0%
+>=   5s           0.00   0.0%           0.00   0.0%
+Read time worst  =         83ms
+Write time worst =        107ms
+=== 56716d40(0:1) RAID Group: 0 HDD transfer size information ===
+              read             write
+<   1KB          0   0.0%          0   0.0% 
+<   2KB          0   0.0%          0   0.0% 
+<   4KB          0   0.0%          0   0.0% 
+<   8KB          0   0.0%          0   0.0% 
+<  16KB          0   0.0%          0   0.0% 
+<  32KB          0   0.0%          0   0.0% 
+<  64KB          0   0.0%          0   0.0% 
+< 128KB          0   0.0%          0   0.0% 
+< 256KB          0   0.0%          0   0.0% 
+< 512KB          0   0.0%          0   0.0% 
+<   1MB          0   0.0%          0   0.0% 
+<   2MB          0   0.0%          0   0.0% 
+<   4MB          0   0.0%          0   0.0% 
+>=  4MB          0   0.0%          0   0.0% 
+Total read  transfer rate =        0.0KB/s
+Total write transfer rate =        0.0KB/s
+=== 56716d40(0:1) RAID Group: 0 HDD transfer rate information ===
+               read             write
+<  1MB/s          0   0.0%          0   0.0% 
+<  2MB/s          0   0.0%          0   0.0% 
+<  4MB/s          0   0.0%          0   0.0% 
+<  8MB/s          0   0.0%          0   0.0% 
+< 16MB/s          0   0.0%          0   0.0% 
+< 32MB/s          0   0.0%          0   0.0% 
+< 64MB/s          0   0.0%          0   0.0% 
+>=64MB/s          0   0.0%          0   0.0% 
+=== 56716d40(0:1) RAID Group: 1 HDD access information ===
+HDD No       read      write  read total response  write total response
+    24        0.2        0.0                 0.50                  0.00 
+    25        0.2        0.0                 0.50                  0.00 
+    26        0.2        0.0                 0.50                  0.00 
+    27        0.2        0.0                 0.50                  0.00 
+    28        0.2        0.0                 0.50                  0.00 
+    29        0.2        0.0                 0.50                  0.00 
+    30        0.2        0.0                 0.50                  0.00 
+    31        0.2        0.0                 0.50                  0.00 
+    32        0.2        0.0                 0.50                  0.00 
+    33        0.2        0.0                 0.50                  0.00 
+    34        0.2        0.0                 0.50                  0.00 
+    35        0.2        0.0                 0.50                  0.00 
+=== HDD 24 response time information ===
+                  read                 write
+<  50ms           0.50 100.0%           0.00   0.0%
+< 100ms           0.00   0.0%           0.00   0.0%
+< 200ms           0.00   0.0%           0.00   0.0%
+< 500ms           0.00   0.0%           0.00   0.0%
+<   1ms           0.00   0.0%           0.00   0.0%
+<   3ms           0.00   0.0%           0.00   0.0%
+<    5s           0.00   0.0%           0.00   0.0%
+>=   5s           0.00   0.0%           0.00   0.0%
+Read time worst  =        647ms
+Write time worst =        205ms
+=== HDD 25 response time information ===
+                  read                 write
+<  50ms           0.50 100.0%           0.00   0.0%
+< 100ms           0.00   0.0%           0.00   0.0%
+< 200ms           0.00   0.0%           0.00   0.0%
+< 500ms           0.00   0.0%           0.00   0.0%
+<   1ms           0.00   0.0%           0.00   0.0%
+<   3ms           0.00   0.0%           0.00   0.0%
+<    5s           0.00   0.0%           0.00   0.0%
+>=   5s           0.00   0.0%           0.00   0.0%
+Read time worst  =        508ms
+Write time worst =       1048ms
+=== HDD 26 response time information ===
+                  read                 write
+<  50ms           0.50 100.0%           0.00   0.0%
+< 100ms           0.00   0.0%           0.00   0.0%
+< 200ms           0.00   0.0%           0.00   0.0%
+< 500ms           0.00   0.0%           0.00   0.0%
+<   1ms           0.00   0.0%           0.00   0.0%
+<   3ms           0.00   0.0%           0.00   0.0%
+<    5s           0.00   0.0%           0.00   0.0%
+>=   5s           0.00   0.0%           0.00   0.0%
+Read time worst  =        591ms
+Write time worst =        162ms
+=== HDD 27 response time information ===
+                  read                 write
+<  50ms           0.50 100.0%           0.00   0.0%
+< 100ms           0.00   0.0%           0.00   0.0%
+< 200ms           0.00   0.0%           0.00   0.0%
+< 500ms           0.00   0.0%           0.00   0.0%
+<   1ms           0.00   0.0%           0.00   0.0%
+<   3ms           0.00   0.0%           0.00   0.0%
+<    5s           0.00   0.0%           0.00   0.0%
+>=   5s           0.00   0.0%           0.00   0.0%
+Read time worst  =        367ms
+Write time worst =        658ms
+=== HDD 28 response time information ===
+                  read                 write
+<  50ms           0.50 100.0%           0.00   0.0%
+< 100ms           0.00   0.0%           0.00   0.0%
+< 200ms           0.00   0.0%           0.00   0.0%
+< 500ms           0.00   0.0%           0.00   0.0%
+<   1ms           0.00   0.0%           0.00   0.0%
+<   3ms           0.00   0.0%           0.00   0.0%
+<    5s           0.00   0.0%           0.00   0.0%
+>=   5s           0.00   0.0%           0.00   0.0%
+Read time worst  =        873ms
+Write time worst =        187ms
+=== HDD 29 response time information ===
+                  read                 write
+<  50ms           0.50 100.0%           0.00   0.0%
+< 100ms           0.00   0.0%           0.00   0.0%
+< 200ms           0.00   0.0%           0.00   0.0%
+< 500ms           0.00   0.0%           0.00   0.0%
+<   1ms           0.00   0.0%           0.00   0.0%
+<   3ms           0.00   0.0%           0.00   0.0%
+<    5s           0.00   0.0%           0.00   0.0%
+>=   5s           0.00   0.0%           0.00   0.0%
+Read time worst  =        664ms
+Write time worst =        275ms
+=== HDD 30 response time information ===
+                  read                 write
+<  50ms           0.50 100.0%           0.00   0.0%
+< 100ms           0.00   0.0%           0.00   0.0%
+< 200ms           0.00   0.0%           0.00   0.0%
+< 500ms           0.00   0.0%           0.00   0.0%
+<   1ms           0.00   0.0%           0.00   0.0%
+<   3ms           0.00   0.0%           0.00   0.0%
+<    5s           0.00   0.0%           0.00   0.0%
+>=   5s           0.00   0.0%           0.00   0.0%
+Read time worst  =        653ms
+Write time worst =        127ms
+=== HDD 31 response time information ===
+                  read                 write
+<  50ms           0.50 100.0%           0.00   0.0%
+< 100ms           0.00   0.0%           0.00   0.0%
+< 200ms           0.00   0.0%           0.00   0.0%
+< 500ms           0.00   0.0%           0.00   0.0%
+<   1ms           0.00   0.0%           0.00   0.0%
+<   3ms           0.00   0.0%           0.00   0.0%
+<    5s           0.00   0.0%           0.00   0.0%
+>=   5s           0.00   0.0%           0.00   0.0%
+Read time worst  =        652ms
+Write time worst =        347ms
+=== HDD 32 response time information ===
+                  read                 write
+<  50ms           0.50 100.0%           0.00   0.0%
+< 100ms           0.00   0.0%           0.00   0.0%
+< 200ms           0.00   0.0%           0.00   0.0%
+< 500ms           0.00   0.0%           0.00   0.0%
+<   1ms           0.00   0.0%           0.00   0.0%
+<   3ms           0.00   0.0%           0.00   0.0%
+<    5s           0.00   0.0%           0.00   0.0%
+>=   5s           0.00   0.0%           0.00   0.0%
+Read time worst  =       2025ms
+Write time worst =        573ms
+=== HDD 33 response time information ===
+                  read                 write
+<  50ms           0.50 100.0%           0.00   0.0%
+< 100ms           0.00   0.0%           0.00   0.0%
+< 200ms           0.00   0.0%           0.00   0.0%
+< 500ms           0.00   0.0%           0.00   0.0%
+<   1ms           0.00   0.0%           0.00   0.0%
+<   3ms           0.00   0.0%           0.00   0.0%
+<    5s           0.00   0.0%           0.00   0.0%
+>=   5s           0.00   0.0%           0.00   0.0%
+Read time worst  =       1497ms
+Write time worst =       2023ms
+=== HDD 34 response time information ===
+                  read                 write
+<  50ms           0.50 100.0%           0.00   0.0%
+< 100ms           0.00   0.0%           0.00   0.0%
+< 200ms           0.00   0.0%           0.00   0.0%
+< 500ms           0.00   0.0%           0.00   0.0%
+<   1ms           0.00   0.0%           0.00   0.0%
+<   3ms           0.00   0.0%           0.00   0.0%
+<    5s           0.00   0.0%           0.00   0.0%
+>=   5s           0.00   0.0%           0.00   0.0%
+Read time worst  =        639ms
+Write time worst =        149ms
+=== HDD 35 response time information ===
+                  read                 write
+<  50ms           0.50 100.0%           0.00   0.0%
+< 100ms           0.00   0.0%           0.00   0.0%
+< 200ms           0.00   0.0%           0.00   0.0%
+< 500ms           0.00   0.0%           0.00   0.0%
+<   1ms           0.00   0.0%           0.00   0.0%
+<   3ms           0.00   0.0%           0.00   0.0%
+<    5s           0.00   0.0%           0.00   0.0%
+>=   5s           0.00   0.0%           0.00   0.0%
+Read time worst  =       2719ms
+Write time worst =        427ms
+=== 56716d40(0:1) RAID Group: 1 HDD transfer size information ===
+              read             write
+<   1KB          0   0.0%          0   0.0% 
+<   2KB          0   0.0%          0   0.0% 
+<   4KB          0   0.0%          0   0.0% 
+<   8KB          0   0.0%          0   0.0% 
+<  16KB          0   0.0%          0   0.0% 
+<  32KB          0   0.0%          0   0.0% 
+<  64KB          0   0.0%          0   0.0% 
+< 128KB          0   0.0%          0   0.0% 
+< 256KB          0   0.0%          0   0.0% 
+< 512KB          0   0.0%          0   0.0% 
+<   1MB        120 100.0%          0   0.0% 
+<   2MB          0   0.0%          0   0.0% 
+<   4MB          0   0.0%          0   0.0% 
+>=  4MB          0   0.0%          0   0.0% 
+Total read  transfer rate =     1024.0KB/s
+Total write transfer rate =        0.0KB/s
+=== 56716d40(0:1) RAID Group: 1 HDD transfer rate information ===
+               read             write
+<  1MB/s          0   0.0%          0   0.0% 
+<  2MB/s          0   0.0%          0   0.0% 
+<  4MB/s          0   0.0%          0   0.0% 
+<  8MB/s          0   0.0%          0   0.0% 
+< 16MB/s          0   0.0%          0   0.0% 
+< 32MB/s          3   2.5%          0   0.0% 
+< 64MB/s         39  32.5%          0   0.0% 
+>=64MB/s         78  65.0%          0   0.0% 
+=== 56716d40(0:1) write-back-cache schedule information ===
+schedule parameter	   schedule count	
+  10%        500ms	         0   0.0%	
+  20%        400ms	         0   0.0%	
+  30%        200ms	         0   0.0%	
+  40%        100ms	         0   0.0%	
+  50%         60ms	         0   0.0%	
+  60%         40ms	         0   0.0%	
+  70%         20ms	         0   0.0%	
+  80%         10ms	         0   0.0%	
+  90%          0ms	         0   0.0%	
+ 100%          0ms	         0   0.0%	
+=== :0 access summary information ===
+	 (KB)/s	  cmd/s	 rs(ms)	 HDD /s	         cmd   hit	         blk   hit	    que
+read	    0.0     0.0	    0.0	    0.0	           0   0.0	           0   0.0	
+write	    0.0     0.0	    0.0	    0.0	           0   0.0	           0   0.0	
+=== :0 transfer size information ===
+                 read               write          read-ahead   write-back
+<=   2KB            0   0.0%            0   0.0%            0            0 
+<=   8KB            0   0.0%            0   0.0%            0            0 
+<=  16KB            0   0.0%            0   0.0%            0            0 
+<=  32KB            0   0.0%            0   0.0%            0            0 
+<=  64KB            0   0.0%            0   0.0%            0            0 
+<= 128KB            0   0.0%            0   0.0%            0            0 
+<= 256KB            0   0.0%            0   0.0%            0            0 
+<= 512KB            0   0.0%            0   0.0%            0            0 
+<=   1MB            0   0.0%            0   0.0%            0            0 
+>    1MB            0   0.0%            0   0.0%            0            0 
+=== :0 response time information ===
+                read               write          read-ahead   write-back
+< 0.1ms            0   0.0%            0   0.0%            0            0 
+< 0.2ms            0   0.0%            0   0.0%            0            0 
+< 0.3ms            0   0.0%            0   0.0%            0            0 
+< 0.4ms            0   0.0%            0   0.0%            0            0 
+< 0.5ms            0   0.0%            0   0.0%            0            0 
+< 0.6ms            0   0.0%            0   0.0%            0            0 
+< 0.7ms            0   0.0%            0   0.0%            0            0 
+< 0.8ms            0   0.0%            0   0.0%            0            0 
+< 0.9ms            0   0.0%            0   0.0%            0            0 
+<   1ms            0   0.0%            0   0.0%            0            0 
+<   2ms            0   0.0%            0   0.0%            0            0 
+<   3ms            0   0.0%            0   0.0%            0            0 
+<   4ms            0   0.0%            0   0.0%            0            0 
+<   5ms            0   0.0%            0   0.0%            0            0 
+<   6ms            0   0.0%            0   0.0%            0            0 
+<   7ms            0   0.0%            0   0.0%            0            0 
+<   8ms            0   0.0%            0   0.0%            0            0 
+<   9ms            0   0.0%            0   0.0%            0            0 
+<  10ms            0   0.0%            0   0.0%            0            0 
+<  20ms            0   0.0%            0   0.0%            0            0 
+<  30ms            0   0.0%            0   0.0%            0            0 
+<  40ms            0   0.0%            0   0.0%            0            0 
+<  50ms            0   0.0%            0   0.0%            0            0 
+<  60ms            0   0.0%            0   0.0%            0            0 
+<  70ms            0   0.0%            0   0.0%            0            0 
+<  80ms            0   0.0%            0   0.0%            0            0 
+<  90ms            0   0.0%            0   0.0%            0            0 
+< 100ms            0   0.0%            0   0.0%            0            0 
+>=100ms            0   0.0%            0   0.0%            0            0 
+=== :0 distribution count information ===
+block area         read               write
+         0            0   0.0%            0   0.0%
+         1            0   0.0%            0   0.0%
+         2            0   0.0%            0   0.0%
+         3            0   0.0%            0   0.0%
+         4            0   0.0%            0   0.0%
+         5            0   0.0%            0   0.0%
+         6            0   0.0%            0   0.0%
+         7            0   0.0%            0   0.0%
+         8            0   0.0%            0   0.0%
+         9            0   0.0%            0   0.0%
+        10            0   0.0%            0   0.0%
+        11            0   0.0%            0   0.0%
+        12            0   0.0%            0   0.0%
+        13            0   0.0%            0   0.0%
+        14            0   0.0%            0   0.0%
+        15            0   0.0%            0   0.0%
+        16            0   0.0%            0   0.0%
+        17            0   0.0%            0   0.0%
+        18            0   0.0%            0   0.0%
+        19            0   0.0%            0   0.0%
+        20            0   0.0%            0   0.0%
+        21            0   0.0%            0   0.0%
+        22            0   0.0%            0   0.0%
+        23            0   0.0%            0   0.0%
+        24            0   0.0%            0   0.0%
+        25            0   0.0%            0   0.0%
+        26            0   0.0%            0   0.0%
+        27            0   0.0%            0   0.0%
+        28            0   0.0%            0   0.0%
+        29            0   0.0%            0   0.0%
+        30            0   0.0%            0   0.0%
+        31            0   0.0%            0   0.0%
+        32            0   0.0%            0   0.0%
+        33            0   0.0%            0   0.0%
+        34            0   0.0%            0   0.0%
+        35            0   0.0%            0   0.0%
+        36            0   0.0%            0   0.0%
+        37            0   0.0%            0   0.0%
+        38            0   0.0%            0   0.0%
+        39            0   0.0%            0   0.0%
+        40            0   0.0%            0   0.0%
+        41            0   0.0%            0   0.0%
+        42            0   0.0%            0   0.0%
+        43            0   0.0%            0   0.0%
+        44            0   0.0%            0   0.0%
+        45            0   0.0%            0   0.0%
+        46            0   0.0%            0   0.0%
+        47            0   0.0%            0   0.0%
+        48            0   0.0%            0   0.0%
+        49            0   0.0%            0   0.0%
+        50            0   0.0%            0   0.0%
+        51            0   0.0%            0   0.0%
+        52            0   0.0%            0   0.0%
+        53            0   0.0%            0   0.0%
+        54            0   0.0%            0   0.0%
+        55            0   0.0%            0   0.0%
+        56            0   0.0%            0   0.0%
+        57            0   0.0%            0   0.0%
+        58            0   0.0%            0   0.0%
+        59            0   0.0%            0   0.0%
+        60            0   0.0%            0   0.0%
+        61            0   0.0%            0   0.0%
+        62            0   0.0%            0   0.0%
+        63            0   0.0%            0   0.0%
+        64            0   0.0%            0   0.0%
+        65            0   0.0%            0   0.0%
+        66            0   0.0%            0   0.0%
+        67            0   0.0%            0   0.0%
+        68            0   0.0%            0   0.0%
+        69            0   0.0%            0   0.0%
+        70            0   0.0%            0   0.0%
+        71            0   0.0%            0   0.0%
+        72            0   0.0%            0   0.0%
+        73            0   0.0%            0   0.0%
+        74            0   0.0%            0   0.0%
+        75            0   0.0%            0   0.0%
+        76            0   0.0%            0   0.0%
+        77            0   0.0%            0   0.0%
+        78            0   0.0%            0   0.0%
+        79            0   0.0%            0   0.0%
+        80            0   0.0%            0   0.0%
+        81            0   0.0%            0   0.0%
+        82            0   0.0%            0   0.0%
+        83            0   0.0%            0   0.0%
+        84            0   0.0%            0   0.0%
+        85            0   0.0%            0   0.0%
+        86            0   0.0%            0   0.0%
+        87            0   0.0%            0   0.0%
+        88            0   0.0%            0   0.0%
+        89            0   0.0%            0   0.0%
+        90            0   0.0%            0   0.0%
+        91            0   0.0%            0   0.0%
+        92            0   0.0%            0   0.0%
+        93            0   0.0%            0   0.0%
+        94            0   0.0%            0   0.0%
+        95            0   0.0%            0   0.0%
+        96            0   0.0%            0   0.0%
+        97            0   0.0%            0   0.0%
+        98            0   0.0%            0   0.0%
+        99            0   0.0%            0   0.0%
+Total read count  =          0
+Total write count =          0
+=== :0 OBR communication statistical information ===
+response(ms)     size(KB)      count fcd_err rpm_err cpm_err warn
+         0.0          0.0          0       0       0       0    0
+Max remote write response time =        0.0ms
+Max remote write size          =        0.0KB
+=== :0 async OBR statistical information ===
+OBR sync reason            count
+cache size limit               0   0.0%
+interval time elapsed          0   0.0%
+I/O wait / CF change           0   0.0%
+Total sync command count                 =             0
+Total sync command response time         =         0.0ms
+Max sync command response time           =         0.0ms
+Total remote write count after last sync =             0
+Total remote write size after last sync  =         0.0KB
+Max remote write count before last sync  =             0
+Max remote write size before last sync   =         0.0KB
+Total remote write wait count            =             0
+=== :1 access summary information ===
+	 (KB)/s	  cmd/s	 rs(ms)	 HDD /s	         cmd   hit	         blk   hit	    que
+read	    0.0     0.0	    0.0	    2.0	           0   0.0	           0   0.0	
+write	    0.0     0.0	    0.0	    0.0	           0   0.0	           0   0.0	
+=== :1 transfer size information ===
+                 read               write          read-ahead   write-back
+<=   2KB            0   0.0%            0   0.0%            0            0 
+<=   8KB            0   0.0%            0   0.0%            0            0 
+<=  16KB            0   0.0%            0   0.0%            0            0 
+<=  32KB            0   0.0%            0   0.0%            0            0 
+<=  64KB            0   0.0%            0   0.0%            0            0 
+<= 128KB            0   0.0%            0   0.0%            0            0 
+<= 256KB            0   0.0%            0   0.0%            0            0 
+<= 512KB            0   0.0%            0   0.0%            0            0 
+<=   1MB            0   0.0%            0   0.0%            0            0 
+>    1MB            0   0.0%            0   0.0%            0            0 
+=== :1 response time information ===
+                read               write          read-ahead   write-back
+< 0.1ms            0   0.0%            0   0.0%            0            0 
+< 0.2ms            0   0.0%            0   0.0%            0            0 
+< 0.3ms            0   0.0%            0   0.0%            0            0 
+< 0.4ms            0   0.0%            0   0.0%            0            0 
+< 0.5ms            0   0.0%            0   0.0%            0            0 
+< 0.6ms            0   0.0%            0   0.0%            0            0 
+< 0.7ms            0   0.0%            0   0.0%            0            0 
+< 0.8ms            0   0.0%            0   0.0%            0            0 
+< 0.9ms            0   0.0%            0   0.0%            0            0 
+<   1ms            0   0.0%            0   0.0%            0            0 
+<   2ms            0   0.0%            0   0.0%            0            0 
+<   3ms            0   0.0%            0   0.0%            0            0 
+<   4ms            0   0.0%            0   0.0%            0            0 
+<   5ms            0   0.0%            0   0.0%            0            0 
+<   6ms            0   0.0%            0   0.0%            0            0 
+<   7ms            0   0.0%            0   0.0%            0            0 
+<   8ms            0   0.0%            0   0.0%            0            0 
+<   9ms            0   0.0%            0   0.0%            0            0 
+<  10ms            0   0.0%            0   0.0%            0            0 
+<  20ms            0   0.0%            0   0.0%            0            0 
+<  30ms            0   0.0%            0   0.0%            0            0 
+<  40ms            0   0.0%            0   0.0%            0            0 
+<  50ms            0   0.0%            0   0.0%            0            0 
+<  60ms            0   0.0%            0   0.0%            0            0 
+<  70ms            0   0.0%            0   0.0%            0            0 
+<  80ms            0   0.0%            0   0.0%            0            0 
+<  90ms            0   0.0%            0   0.0%            0            0 
+< 100ms            0   0.0%            0   0.0%            0            0 
+>=100ms            0   0.0%            0   0.0%            0            0 
+=== :1 distribution count information ===
+block area         read               write
+         0            0   0.0%            0   0.0%
+         1            0   0.0%            0   0.0%
+         2            0   0.0%            0   0.0%
+         3            0   0.0%            0   0.0%
+         4            0   0.0%            0   0.0%
+         5            0   0.0%            0   0.0%
+         6            0   0.0%            0   0.0%
+         7            0   0.0%            0   0.0%
+         8            0   0.0%            0   0.0%
+         9            0   0.0%            0   0.0%
+        10            0   0.0%            0   0.0%
+        11            0   0.0%            0   0.0%
+        12            0   0.0%            0   0.0%
+        13            0   0.0%            0   0.0%
+        14            0   0.0%            0   0.0%
+        15            0   0.0%            0   0.0%
+        16            0   0.0%            0   0.0%
+        17            0   0.0%            0   0.0%
+        18            0   0.0%            0   0.0%
+        19            0   0.0%            0   0.0%
+        20            0   0.0%            0   0.0%
+        21            0   0.0%            0   0.0%
+        22            0   0.0%            0   0.0%
+        23            0   0.0%            0   0.0%
+        24            0   0.0%            0   0.0%
+        25            0   0.0%            0   0.0%
+        26            0   0.0%            0   0.0%
+        27            0   0.0%            0   0.0%
+        28            0   0.0%            0   0.0%
+        29            0   0.0%            0   0.0%
+        30            0   0.0%            0   0.0%
+        31            0   0.0%            0   0.0%
+        32            0   0.0%            0   0.0%
+        33            0   0.0%            0   0.0%
+        34            0   0.0%            0   0.0%
+        35            0   0.0%            0   0.0%
+        36            0   0.0%            0   0.0%
+        37            0   0.0%            0   0.0%
+        38            0   0.0%            0   0.0%
+        39            0   0.0%            0   0.0%
+        40            0   0.0%            0   0.0%
+        41            0   0.0%            0   0.0%
+        42            0   0.0%            0   0.0%
+        43            0   0.0%            0   0.0%
+        44            0   0.0%            0   0.0%
+        45            0   0.0%            0   0.0%
+        46            0   0.0%            0   0.0%
+        47            0   0.0%            0   0.0%
+        48            0   0.0%            0   0.0%
+        49            0   0.0%            0   0.0%
+        50            0   0.0%            0   0.0%
+        51            0   0.0%            0   0.0%
+        52            0   0.0%            0   0.0%
+        53            0   0.0%            0   0.0%
+        54            0   0.0%            0   0.0%
+        55            0   0.0%            0   0.0%
+        56            0   0.0%            0   0.0%
+        57            0   0.0%            0   0.0%
+        58            0   0.0%            0   0.0%
+        59            0   0.0%            0   0.0%
+        60            0   0.0%            0   0.0%
+        61            0   0.0%            0   0.0%
+        62            0   0.0%            0   0.0%
+        63            0   0.0%            0   0.0%
+        64            0   0.0%            0   0.0%
+        65            0   0.0%            0   0.0%
+        66            0   0.0%            0   0.0%
+        67            0   0.0%            0   0.0%
+        68            0   0.0%            0   0.0%
+        69            0   0.0%            0   0.0%
+        70            0   0.0%            0   0.0%
+        71            0   0.0%            0   0.0%
+        72            0   0.0%            0   0.0%
+        73            0   0.0%            0   0.0%
+        74            0   0.0%            0   0.0%
+        75            0   0.0%            0   0.0%
+        76            0   0.0%            0   0.0%
+        77            0   0.0%            0   0.0%
+        78            0   0.0%            0   0.0%
+        79            0   0.0%            0   0.0%
+        80            0   0.0%            0   0.0%
+        81            0   0.0%            0   0.0%
+        82            0   0.0%            0   0.0%
+        83            0   0.0%            0   0.0%
+        84            0   0.0%            0   0.0%
+        85            0   0.0%            0   0.0%
+        86            0   0.0%            0   0.0%
+        87            0   0.0%            0   0.0%
+        88            0   0.0%            0   0.0%
+        89            0   0.0%            0   0.0%
+        90            0   0.0%            0   0.0%
+        91            0   0.0%            0   0.0%
+        92            0   0.0%            0   0.0%
+        93            0   0.0%            0   0.0%
+        94            0   0.0%            0   0.0%
+        95            0   0.0%            0   0.0%
+        96            0   0.0%            0   0.0%
+        97            0   0.0%            0   0.0%
+        98            0   0.0%            0   0.0%
+        99            0   0.0%            0   0.0%
+Total read count  =          0
+Total write count =          0
+=== :1 OBR communication statistical information ===
+response(ms)     size(KB)      count fcd_err rpm_err cpm_err warn
+         0.0          0.0          0       0       0       0    0
+Max remote write response time =        0.0ms
+Max remote write size          =        0.0KB
+=== :1 async OBR statistical information ===
+OBR sync reason            count
+cache size limit               0   0.0%
+interval time elapsed          0   0.0%
+I/O wait / CF change           0   0.0%
+Total sync command count                 =             0
+Total sync command response time         =         0.0ms
+Max sync command response time           =         0.0ms
+Total remote write count after last sync =             0
+Total remote write size after last sync  =         0.0KB
+Max remote write count before last sync  =             0
+Max remote write size before last sync   =         0.0KB
+Total remote write wait count            =             0
+=== 56716d40(0:1) RAID Group: 0 HDD access information ===
+HDD No       read      write  read total response  write total response
+     3        0.0        0.0                 0.00                  0.00 
+     4        0.0        0.0                 0.00                  0.00 
+     5        0.0        0.0                 0.00                  0.00 
+     6        0.0        0.0                 0.00                  0.00 
+     7        0.0        0.0                 0.00                  0.00 
+     8        0.0        0.0                 0.00                  0.00 
+     9        0.0        0.0                 0.00                  0.00 
+    10        0.0        0.0                 0.00                  0.00 
+    11        0.0        0.0                 0.00                  0.00 
+    12        0.0        0.0                 0.00                  0.00 
+=== HDD 3 response time information ===
+                  read                 write
+<  50ms           0.00   0.0%           0.00   0.0%
+< 100ms           0.00   0.0%           0.00   0.0%
+< 200ms           0.00   0.0%           0.00   0.0%
+< 500ms           0.00   0.0%           0.00   0.0%
+<   1ms           0.00   0.0%           0.00   0.0%
+<   3ms           0.00   0.0%           0.00   0.0%
+<    5s           0.00   0.0%           0.00   0.0%
+>=   5s           0.00   0.0%           0.00   0.0%
+Read time worst  =        513ms
+Write time worst =        129ms
+=== HDD 4 response time information ===
+                  read                 write
+<  50ms           0.00   0.0%           0.00   0.0%
+< 100ms           0.00   0.0%           0.00   0.0%
+< 200ms           0.00   0.0%           0.00   0.0%
+< 500ms           0.00   0.0%           0.00   0.0%
+<   1ms           0.00   0.0%           0.00   0.0%
+<   3ms           0.00   0.0%           0.00   0.0%
+<    5s           0.00   0.0%           0.00   0.0%
+>=   5s           0.00   0.0%           0.00   0.0%
+Read time worst  =         21ms
+Write time worst =         31ms
+=== HDD 5 response time information ===
+                  read                 write
+<  50ms           0.00   0.0%           0.00   0.0%
+< 100ms           0.00   0.0%           0.00   0.0%
+< 200ms           0.00   0.0%           0.00   0.0%
+< 500ms           0.00   0.0%           0.00   0.0%
+<   1ms           0.00   0.0%           0.00   0.0%
+<   3ms           0.00   0.0%           0.00   0.0%
+<    5s           0.00   0.0%           0.00   0.0%
+>=   5s           0.00   0.0%           0.00   0.0%
+Read time worst  =         18ms
+Write time worst =         17ms
+=== HDD 6 response time information ===
+                  read                 write
+<  50ms           0.00   0.0%           0.00   0.0%
+< 100ms           0.00   0.0%           0.00   0.0%
+< 200ms           0.00   0.0%           0.00   0.0%
+< 500ms           0.00   0.0%           0.00   0.0%
+<   1ms           0.00   0.0%           0.00   0.0%
+<   3ms           0.00   0.0%           0.00   0.0%
+<    5s           0.00   0.0%           0.00   0.0%
+>=   5s           0.00   0.0%           0.00   0.0%
+Read time worst  =         90ms
+Write time worst =        103ms
+=== HDD 7 response time information ===
+                  read                 write
+<  50ms           0.00   0.0%           0.00   0.0%
+< 100ms           0.00   0.0%           0.00   0.0%
+< 200ms           0.00   0.0%           0.00   0.0%
+< 500ms           0.00   0.0%           0.00   0.0%
+<   1ms           0.00   0.0%           0.00   0.0%
+<   3ms           0.00   0.0%           0.00   0.0%
+<    5s           0.00   0.0%           0.00   0.0%
+>=   5s           0.00   0.0%           0.00   0.0%
+Read time worst  =         97ms
+Write time worst =        115ms
+=== HDD 8 response time information ===
+                  read                 write
+<  50ms           0.00   0.0%           0.00   0.0%
+< 100ms           0.00   0.0%           0.00   0.0%
+< 200ms           0.00   0.0%           0.00   0.0%
+< 500ms           0.00   0.0%           0.00   0.0%
+<   1ms           0.00   0.0%           0.00   0.0%
+<   3ms           0.00   0.0%           0.00   0.0%
+<    5s           0.00   0.0%           0.00   0.0%
+>=   5s           0.00   0.0%           0.00   0.0%
+Read time worst  =         95ms
+Write time worst =        120ms
+=== HDD 9 response time information ===
+                  read                 write
+<  50ms           0.00   0.0%           0.00   0.0%
+< 100ms           0.00   0.0%           0.00   0.0%
+< 200ms           0.00   0.0%           0.00   0.0%
+< 500ms           0.00   0.0%           0.00   0.0%
+<   1ms           0.00   0.0%           0.00   0.0%
+<   3ms           0.00   0.0%           0.00   0.0%
+<    5s           0.00   0.0%           0.00   0.0%
+>=   5s           0.00   0.0%           0.00   0.0%
+Read time worst  =        105ms
+Write time worst =        104ms
+=== HDD 10 response time information ===
+                  read                 write
+<  50ms           0.00   0.0%           0.00   0.0%
+< 100ms           0.00   0.0%           0.00   0.0%
+< 200ms           0.00   0.0%           0.00   0.0%
+< 500ms           0.00   0.0%           0.00   0.0%
+<   1ms           0.00   0.0%           0.00   0.0%
+<   3ms           0.00   0.0%           0.00   0.0%
+<    5s           0.00   0.0%           0.00   0.0%
+>=   5s           0.00   0.0%           0.00   0.0%
+Read time worst  =         45ms
+Write time worst =        100ms
+=== HDD 11 response time information ===
+                  read                 write
+<  50ms           0.00   0.0%           0.00   0.0%
+< 100ms           0.00   0.0%           0.00   0.0%
+< 200ms           0.00   0.0%           0.00   0.0%
+< 500ms           0.00   0.0%           0.00   0.0%
+<   1ms           0.00   0.0%           0.00   0.0%
+<   3ms           0.00   0.0%           0.00   0.0%
+<    5s           0.00   0.0%           0.00   0.0%
+>=   5s           0.00   0.0%           0.00   0.0%
+Read time worst  =        405ms
+Write time worst =         14ms
+=== HDD 12 response time information ===
+                  read                 write
+<  50ms           0.00   0.0%           0.00   0.0%
+< 100ms           0.00   0.0%           0.00   0.0%
+< 200ms           0.00   0.0%           0.00   0.0%
+< 500ms           0.00   0.0%           0.00   0.0%
+<   1ms           0.00   0.0%           0.00   0.0%
+<   3ms           0.00   0.0%           0.00   0.0%
+<    5s           0.00   0.0%           0.00   0.0%
+>=   5s           0.00   0.0%           0.00   0.0%
+Read time worst  =         83ms
+Write time worst =        107ms
+=== 56716d40(0:1) RAID Group: 0 HDD transfer size information ===
+              read             write
+<   1KB          0   0.0%          0   0.0% 
+<   2KB          0   0.0%          0   0.0% 
+<   4KB          0   0.0%          0   0.0% 
+<   8KB          0   0.0%          0   0.0% 
+<  16KB          0   0.0%          0   0.0% 
+<  32KB          0   0.0%          0   0.0% 
+<  64KB          0   0.0%          0   0.0% 
+< 128KB          0   0.0%          0   0.0% 
+< 256KB          0   0.0%          0   0.0% 
+< 512KB          0   0.0%          0   0.0% 
+<   1MB          0   0.0%          0   0.0% 
+<   2MB          0   0.0%          0   0.0% 
+<   4MB          0   0.0%          0   0.0% 
+>=  4MB          0   0.0%          0   0.0% 
+Total read  transfer rate =        0.0KB/s
+Total write transfer rate =        0.0KB/s
+=== 56716d40(0:1) RAID Group: 0 HDD transfer rate information ===
+               read             write
+<  1MB/s          0   0.0%          0   0.0% 
+<  2MB/s          0   0.0%          0   0.0% 
+<  4MB/s          0   0.0%          0   0.0% 
+<  8MB/s          0   0.0%          0   0.0% 
+< 16MB/s          0   0.0%          0   0.0% 
+< 32MB/s          0   0.0%          0   0.0% 
+< 64MB/s          0   0.0%          0   0.0% 
+>=64MB/s          0   0.0%          0   0.0% 
+=== 56716d40(0:1) RAID Group: 1 HDD access information ===
+HDD No       read      write  read total response  write total response
+    24        0.2        0.0                 0.50                  0.00 
+    25        0.2        0.0                 0.50                  0.00 
+    26        0.2        0.0                 0.50                  0.00 
+    27        0.2        0.0                 0.50                  0.00 
+    28        0.2        0.0                 0.50                  0.00 
+    29        0.2        0.0                 0.50                  0.00 
+    30        0.2        0.0                 0.50                  0.00 
+    31        0.2        0.0                 0.50                  0.00 
+    32        0.2        0.0                 0.50                  0.00 
+    33        0.2        0.0                 0.50                  0.00 
+    34        0.2        0.0                 0.50                  0.00 
+    35        0.2        0.0                 0.50                  0.00 
+=== HDD 24 response time information ===
+                  read                 write
+<  50ms           0.50 100.0%           0.00   0.0%
+< 100ms           0.00   0.0%           0.00   0.0%
+< 200ms           0.00   0.0%           0.00   0.0%
+< 500ms           0.00   0.0%           0.00   0.0%
+<   1ms           0.00   0.0%           0.00   0.0%
+<   3ms           0.00   0.0%           0.00   0.0%
+<    5s           0.00   0.0%           0.00   0.0%
+>=   5s           0.00   0.0%           0.00   0.0%
+Read time worst  =        647ms
+Write time worst =        205ms
+=== HDD 25 response time information ===
+                  read                 write
+<  50ms           0.50 100.0%           0.00   0.0%
+< 100ms           0.00   0.0%           0.00   0.0%
+< 200ms           0.00   0.0%           0.00   0.0%
+< 500ms           0.00   0.0%           0.00   0.0%
+<   1ms           0.00   0.0%           0.00   0.0%
+<   3ms           0.00   0.0%           0.00   0.0%
+<    5s           0.00   0.0%           0.00   0.0%
+>=   5s           0.00   0.0%           0.00   0.0%
+Read time worst  =        508ms
+Write time worst =       1048ms
+=== HDD 26 response time information ===
+                  read                 write
+<  50ms           0.50 100.0%           0.00   0.0%
+< 100ms           0.00   0.0%           0.00   0.0%
+< 200ms           0.00   0.0%           0.00   0.0%
+< 500ms           0.00   0.0%           0.00   0.0%
+<   1ms           0.00   0.0%           0.00   0.0%
+<   3ms           0.00   0.0%           0.00   0.0%
+<    5s           0.00   0.0%           0.00   0.0%
+>=   5s           0.00   0.0%           0.00   0.0%
+Read time worst  =        591ms
+Write time worst =        162ms
+=== HDD 27 response time information ===
+                  read                 write
+<  50ms           0.50 100.0%           0.00   0.0%
+< 100ms           0.00   0.0%           0.00   0.0%
+< 200ms           0.00   0.0%           0.00   0.0%
+< 500ms           0.00   0.0%           0.00   0.0%
+<   1ms           0.00   0.0%           0.00   0.0%
+<   3ms           0.00   0.0%           0.00   0.0%
+<    5s           0.00   0.0%           0.00   0.0%
+>=   5s           0.00   0.0%           0.00   0.0%
+Read time worst  =        367ms
+Write time worst =        658ms
+=== HDD 28 response time information ===
+                  read                 write
+<  50ms           0.50 100.0%           0.00   0.0%
+< 100ms           0.00   0.0%           0.00   0.0%
+< 200ms           0.00   0.0%           0.00   0.0%
+< 500ms           0.00   0.0%           0.00   0.0%
+<   1ms           0.00   0.0%           0.00   0.0%
+<   3ms           0.00   0.0%           0.00   0.0%
+<    5s           0.00   0.0%           0.00   0.0%
+>=   5s           0.00   0.0%           0.00   0.0%
+Read time worst  =        873ms
+Write time worst =        187ms
+=== HDD 29 response time information ===
+                  read                 write
+<  50ms           0.50 100.0%           0.00   0.0%
+< 100ms           0.00   0.0%           0.00   0.0%
+< 200ms           0.00   0.0%           0.00   0.0%
+< 500ms           0.00   0.0%           0.00   0.0%
+<   1ms           0.00   0.0%           0.00   0.0%
+<   3ms           0.00   0.0%           0.00   0.0%
+<    5s           0.00   0.0%           0.00   0.0%
+>=   5s           0.00   0.0%           0.00   0.0%
+Read time worst  =        664ms
+Write time worst =        275ms
+=== HDD 30 response time information ===
+                  read                 write
+<  50ms           0.50 100.0%           0.00   0.0%
+< 100ms           0.00   0.0%           0.00   0.0%
+< 200ms           0.00   0.0%           0.00   0.0%
+< 500ms           0.00   0.0%           0.00   0.0%
+<   1ms           0.00   0.0%           0.00   0.0%
+<   3ms           0.00   0.0%           0.00   0.0%
+<    5s           0.00   0.0%           0.00   0.0%
+>=   5s           0.00   0.0%           0.00   0.0%
+Read time worst  =        653ms
+Write time worst =        127ms
+=== HDD 31 response time information ===
+                  read                 write
+<  50ms           0.50 100.0%           0.00   0.0%
+< 100ms           0.00   0.0%           0.00   0.0%
+< 200ms           0.00   0.0%           0.00   0.0%
+< 500ms           0.00   0.0%           0.00   0.0%
+<   1ms           0.00   0.0%           0.00   0.0%
+<   3ms           0.00   0.0%           0.00   0.0%
+<    5s           0.00   0.0%           0.00   0.0%
+>=   5s           0.00   0.0%           0.00   0.0%
+Read time worst  =        652ms
+Write time worst =        347ms
+=== HDD 32 response time information ===
+                  read                 write
+<  50ms           0.50 100.0%           0.00   0.0%
+< 100ms           0.00   0.0%           0.00   0.0%
+< 200ms           0.00   0.0%           0.00   0.0%
+< 500ms           0.00   0.0%           0.00   0.0%
+<   1ms           0.00   0.0%           0.00   0.0%
+<   3ms           0.00   0.0%           0.00   0.0%
+<    5s           0.00   0.0%           0.00   0.0%
+>=   5s           0.00   0.0%           0.00   0.0%
+Read time worst  =       2025ms
+Write time worst =        573ms
+=== HDD 33 response time information ===
+                  read                 write
+<  50ms           0.50 100.0%           0.00   0.0%
+< 100ms           0.00   0.0%           0.00   0.0%
+< 200ms           0.00   0.0%           0.00   0.0%
+< 500ms           0.00   0.0%           0.00   0.0%
+<   1ms           0.00   0.0%           0.00   0.0%
+<   3ms           0.00   0.0%           0.00   0.0%
+<    5s           0.00   0.0%           0.00   0.0%
+>=   5s           0.00   0.0%           0.00   0.0%
+Read time worst  =       1497ms
+Write time worst =       2023ms
+=== HDD 34 response time information ===
+                  read                 write
+<  50ms           0.50 100.0%           0.00   0.0%
+< 100ms           0.00   0.0%           0.00   0.0%
+< 200ms           0.00   0.0%           0.00   0.0%
+< 500ms           0.00   0.0%           0.00   0.0%
+<   1ms           0.00   0.0%           0.00   0.0%
+<   3ms           0.00   0.0%           0.00   0.0%
+<    5s           0.00   0.0%           0.00   0.0%
+>=   5s           0.00   0.0%           0.00   0.0%
+Read time worst  =        639ms
+Write time worst =        149ms
+=== HDD 35 response time information ===
+                  read                 write
+<  50ms           0.50 100.0%           0.00   0.0%
+< 100ms           0.00   0.0%           0.00   0.0%
+< 200ms           0.00   0.0%           0.00   0.0%
+< 500ms           0.00   0.0%           0.00   0.0%
+<   1ms           0.00   0.0%           0.00   0.0%
+<   3ms           0.00   0.0%           0.00   0.0%
+<    5s           0.00   0.0%           0.00   0.0%
+>=   5s           0.00   0.0%           0.00   0.0%
+Read time worst  =       2719ms
+Write time worst =        427ms
+=== 56716d40(0:1) RAID Group: 1 HDD transfer size information ===
+              read             write
+<   1KB          0   0.0%          0   0.0% 
+<   2KB          0   0.0%          0   0.0% 
+<   4KB          0   0.0%          0   0.0% 
+<   8KB          0   0.0%          0   0.0% 
+<  16KB          0   0.0%          0   0.0% 
+<  32KB          0   0.0%          0   0.0% 
+<  64KB          0   0.0%          0   0.0% 
+< 128KB          0   0.0%          0   0.0% 
+< 256KB          0   0.0%          0   0.0% 
+< 512KB          0   0.0%          0   0.0% 
+<   1MB        120 100.0%          0   0.0% 
+<   2MB          0   0.0%          0   0.0% 
+<   4MB          0   0.0%          0   0.0% 
+>=  4MB          0   0.0%          0   0.0% 
+Total read  transfer rate =     1024.0KB/s
+Total write transfer rate =        0.0KB/s
+=== 56716d40(0:1) RAID Group: 1 HDD transfer rate information ===
+               read             write
+<  1MB/s          0   0.0%          0   0.0% 
+<  2MB/s          0   0.0%          0   0.0% 
+<  4MB/s          0   0.0%          0   0.0% 
+<  8MB/s          0   0.0%          0   0.0% 
+< 16MB/s          0   0.0%          0   0.0% 
+< 32MB/s          0   0.0%          0   0.0% 
+< 64MB/s         18  15.0%          0   0.0% 
+>=64MB/s        102  85.0%          0   0.0% 
+=== 56716d40(0:1) write-back-cache schedule information ===
+schedule parameter	   schedule count	
+  10%        500ms	         0   0.0%	
+  20%        400ms	         0   0.0%	
+  30%        200ms	         0   0.0%	
+  40%        100ms	         0   0.0%	
+  50%         60ms	         0   0.0%	
+  60%         40ms	         0   0.0%	
+  70%         20ms	         0   0.0%	
+  80%         10ms	         0   0.0%	
+  90%          0ms	         0   0.0%	
+ 100%          0ms	         0   0.0%	
+=== :0 access summary information ===
+	 (KB)/s	  cmd/s	 rs(ms)	 HDD /s	         cmd   hit	         blk   hit	    que
+read	    0.0     0.0	    0.0	    0.0	           0   0.0	           0   0.0	
+write	    0.0     0.0	    0.0	    0.0	           0   0.0	           0   0.0	
+=== :0 transfer size information ===
+                 read               write          read-ahead   write-back
+<=   2KB            0   0.0%            0   0.0%            0            0 
+<=   8KB            0   0.0%            0   0.0%            0            0 
+<=  16KB            0   0.0%            0   0.0%            0            0 
+<=  32KB            0   0.0%            0   0.0%            0            0 
+<=  64KB            0   0.0%            0   0.0%            0            0 
+<= 128KB            0   0.0%            0   0.0%            0            0 
+<= 256KB            0   0.0%            0   0.0%            0            0 
+<= 512KB            0   0.0%            0   0.0%            0            0 
+<=   1MB            0   0.0%            0   0.0%            0            0 
+>    1MB            0   0.0%            0   0.0%            0            0 
+=== :0 response time information ===
+                read               write          read-ahead   write-back
+< 0.1ms            0   0.0%            0   0.0%            0            0 
+< 0.2ms            0   0.0%            0   0.0%            0            0 
+< 0.3ms            0   0.0%            0   0.0%            0            0 
+< 0.4ms            0   0.0%            0   0.0%            0            0 
+< 0.5ms            0   0.0%            0   0.0%            0            0 
+< 0.6ms            0   0.0%            0   0.0%            0            0 
+< 0.7ms            0   0.0%            0   0.0%            0            0 
+< 0.8ms            0   0.0%            0   0.0%            0            0 
+< 0.9ms            0   0.0%            0   0.0%            0            0 
+<   1ms            0   0.0%            0   0.0%            0            0 
+<   2ms            0   0.0%            0   0.0%            0            0 
+<   3ms            0   0.0%            0   0.0%            0            0 
+<   4ms            0   0.0%            0   0.0%            0            0 
+<   5ms            0   0.0%            0   0.0%            0            0 
+<   6ms            0   0.0%            0   0.0%            0            0 
+<   7ms            0   0.0%            0   0.0%            0            0 
+<   8ms            0   0.0%            0   0.0%            0            0 
+<   9ms            0   0.0%            0   0.0%            0            0 
+<  10ms            0   0.0%            0   0.0%            0            0 
+<  20ms            0   0.0%            0   0.0%            0            0 
+<  30ms            0   0.0%            0   0.0%            0            0 
+<  40ms            0   0.0%            0   0.0%            0            0 
+<  50ms            0   0.0%            0   0.0%            0            0 
+<  60ms            0   0.0%            0   0.0%            0            0 
+<  70ms            0   0.0%            0   0.0%            0            0 
+<  80ms            0   0.0%            0   0.0%            0            0 
+<  90ms            0   0.0%            0   0.0%            0            0 
+< 100ms            0   0.0%            0   0.0%            0            0 
+>=100ms            0   0.0%            0   0.0%            0            0 
+=== :0 distribution count information ===
+block area         read               write
+         0            0   0.0%            0   0.0%
+         1            0   0.0%            0   0.0%
+         2            0   0.0%            0   0.0%
+         3            0   0.0%            0   0.0%
+         4            0   0.0%            0   0.0%
+         5            0   0.0%            0   0.0%
+         6            0   0.0%            0   0.0%
+         7            0   0.0%            0   0.0%
+         8            0   0.0%            0   0.0%
+         9            0   0.0%            0   0.0%
+        10            0   0.0%            0   0.0%
+        11            0   0.0%            0   0.0%
+        12            0   0.0%            0   0.0%
+        13            0   0.0%            0   0.0%
+        14            0   0.0%            0   0.0%
+        15            0   0.0%            0   0.0%
+        16            0   0.0%            0   0.0%
+        17            0   0.0%            0   0.0%
+        18            0   0.0%            0   0.0%
+        19            0   0.0%            0   0.0%
+        20            0   0.0%            0   0.0%
+        21            0   0.0%            0   0.0%
+        22            0   0.0%            0   0.0%
+        23            0   0.0%            0   0.0%
+        24            0   0.0%            0   0.0%
+        25            0   0.0%            0   0.0%
+        26            0   0.0%            0   0.0%
+        27            0   0.0%            0   0.0%
+        28            0   0.0%            0   0.0%
+        29            0   0.0%            0   0.0%
+        30            0   0.0%            0   0.0%
+        31            0   0.0%            0   0.0%
+        32            0   0.0%            0   0.0%
+        33            0   0.0%            0   0.0%
+        34            0   0.0%            0   0.0%
+        35            0   0.0%            0   0.0%
+        36            0   0.0%            0   0.0%
+        37            0   0.0%            0   0.0%
+        38            0   0.0%            0   0.0%
+        39            0   0.0%            0   0.0%
+        40            0   0.0%            0   0.0%
+        41            0   0.0%            0   0.0%
+        42            0   0.0%            0   0.0%
+        43            0   0.0%            0   0.0%
+        44            0   0.0%            0   0.0%
+        45            0   0.0%            0   0.0%
+        46            0   0.0%            0   0.0%
+        47            0   0.0%            0   0.0%
+        48            0   0.0%            0   0.0%
+        49            0   0.0%            0   0.0%
+        50            0   0.0%            0   0.0%
+        51            0   0.0%            0   0.0%
+        52            0   0.0%            0   0.0%
+        53            0   0.0%            0   0.0%
+        54            0   0.0%            0   0.0%
+        55            0   0.0%            0   0.0%
+        56            0   0.0%            0   0.0%
+        57            0   0.0%            0   0.0%
+        58            0   0.0%            0   0.0%
+        59            0   0.0%            0   0.0%
+        60            0   0.0%            0   0.0%
+        61            0   0.0%            0   0.0%
+        62            0   0.0%            0   0.0%
+        63            0   0.0%            0   0.0%
+        64            0   0.0%            0   0.0%
+        65            0   0.0%            0   0.0%
+        66            0   0.0%            0   0.0%
+        67            0   0.0%            0   0.0%
+        68            0   0.0%            0   0.0%
+        69            0   0.0%            0   0.0%
+        70            0   0.0%            0   0.0%
+        71            0   0.0%            0   0.0%
+        72            0   0.0%            0   0.0%
+        73            0   0.0%            0   0.0%
+        74            0   0.0%            0   0.0%
+        75            0   0.0%            0   0.0%
+        76            0   0.0%            0   0.0%
+        77            0   0.0%            0   0.0%
+        78            0   0.0%            0   0.0%
+        79            0   0.0%            0   0.0%
+        80            0   0.0%            0   0.0%
+        81            0   0.0%            0   0.0%
+        82            0   0.0%            0   0.0%
+        83            0   0.0%            0   0.0%
+        84            0   0.0%            0   0.0%
+        85            0   0.0%            0   0.0%
+        86            0   0.0%            0   0.0%
+        87            0   0.0%            0   0.0%
+        88            0   0.0%            0   0.0%
+        89            0   0.0%            0   0.0%
+        90            0   0.0%            0   0.0%
+        91            0   0.0%            0   0.0%
+        92            0   0.0%            0   0.0%
+        93            0   0.0%            0   0.0%
+        94            0   0.0%            0   0.0%
+        95            0   0.0%            0   0.0%
+        96            0   0.0%            0   0.0%
+        97            0   0.0%            0   0.0%
+        98            0   0.0%            0   0.0%
+        99            0   0.0%            0   0.0%
+Total read count  =          0
+Total write count =          0
+=== :0 OBR communication statistical information ===
+response(ms)     size(KB)      count fcd_err rpm_err cpm_err warn
+         0.0          0.0          0       0       0       0    0
+Max remote write response time =        0.0ms
+Max remote write size          =        0.0KB
+=== :0 async OBR statistical information ===
+OBR sync reason            count
+cache size limit               0   0.0%
+interval time elapsed          0   0.0%
+I/O wait / CF change           0   0.0%
+Total sync command count                 =             0
+Total sync command response time         =         0.0ms
+Max sync command response time           =         0.0ms
+Total remote write count after last sync =             0
+Total remote write size after last sync  =         0.0KB
+Max remote write count before last sync  =             0
+Max remote write size before last sync   =         0.0KB
+Total remote write wait count            =             0
+=== :1 access summary information ===
+	 (KB)/s	  cmd/s	 rs(ms)	 HDD /s	         cmd   hit	         blk   hit	    que
+read	    0.0     0.0	    0.0	    2.0	           0   0.0	           0   0.0	
+write	    0.0     0.0	    0.0	    0.0	           0   0.0	           0   0.0	
+=== :1 transfer size information ===
+                 read               write          read-ahead   write-back
+<=   2KB            0   0.0%            0   0.0%            0            0 
+<=   8KB            0   0.0%            0   0.0%            0            0 
+<=  16KB            0   0.0%            0   0.0%            0            0 
+<=  32KB            0   0.0%            0   0.0%            0            0 
+<=  64KB            0   0.0%            0   0.0%            0            0 
+<= 128KB            0   0.0%            0   0.0%            0            0 
+<= 256KB            0   0.0%            0   0.0%            0            0 
+<= 512KB            0   0.0%            0   0.0%            0            0 
+<=   1MB            0   0.0%            0   0.0%            0            0 
+>    1MB            0   0.0%            0   0.0%            0            0 
+=== :1 response time information ===
+                read               write          read-ahead   write-back
+< 0.1ms            0   0.0%            0   0.0%            0            0 
+< 0.2ms            0   0.0%            0   0.0%            0            0 
+< 0.3ms            0   0.0%            0   0.0%            0            0 
+< 0.4ms            0   0.0%            0   0.0%            0            0 
+< 0.5ms            0   0.0%            0   0.0%            0            0 
+< 0.6ms            0   0.0%            0   0.0%            0            0 
+< 0.7ms            0   0.0%            0   0.0%            0            0 
+< 0.8ms            0   0.0%            0   0.0%            0            0 
+< 0.9ms            0   0.0%            0   0.0%            0            0 
+<   1ms            0   0.0%            0   0.0%            0            0 
+<   2ms            0   0.0%            0   0.0%            0            0 
+<   3ms            0   0.0%            0   0.0%            0            0 
+<   4ms            0   0.0%            0   0.0%            0            0 
+<   5ms            0   0.0%            0   0.0%            0            0 
+<   6ms            0   0.0%            0   0.0%            0            0 
+<   7ms            0   0.0%            0   0.0%            0            0 
+<   8ms            0   0.0%            0   0.0%            0            0 
+<   9ms            0   0.0%            0   0.0%            0            0 
+<  10ms            0   0.0%            0   0.0%            0            0 
+<  20ms            0   0.0%            0   0.0%            0            0 
+<  30ms            0   0.0%            0   0.0%            0            0 
+<  40ms            0   0.0%            0   0.0%            0            0 
+<  50ms            0   0.0%            0   0.0%            0            0 
+<  60ms            0   0.0%            0   0.0%            0            0 
+<  70ms            0   0.0%            0   0.0%            0            0 
+<  80ms            0   0.0%            0   0.0%            0            0 
+<  90ms            0   0.0%            0   0.0%            0            0 
+< 100ms            0   0.0%            0   0.0%            0            0 
+>=100ms            0   0.0%            0   0.0%            0            0 
+=== :1 distribution count information ===
+block area         read               write
+         0            0   0.0%            0   0.0%
+         1            0   0.0%            0   0.0%
+         2            0   0.0%            0   0.0%
+         3            0   0.0%            0   0.0%
+         4            0   0.0%            0   0.0%
+         5            0   0.0%            0   0.0%
+         6            0   0.0%            0   0.0%
+         7            0   0.0%            0   0.0%
+         8            0   0.0%            0   0.0%
+         9            0   0.0%            0   0.0%
+        10            0   0.0%            0   0.0%
+        11            0   0.0%            0   0.0%
+        12            0   0.0%            0   0.0%
+        13            0   0.0%            0   0.0%
+        14            0   0.0%            0   0.0%
+        15            0   0.0%            0   0.0%
+        16            0   0.0%            0   0.0%
+        17            0   0.0%            0   0.0%
+        18            0   0.0%            0   0.0%
+        19            0   0.0%            0   0.0%
+        20            0   0.0%            0   0.0%
+        21            0   0.0%            0   0.0%
+        22            0   0.0%            0   0.0%
+        23            0   0.0%            0   0.0%
+        24            0   0.0%            0   0.0%
+        25            0   0.0%            0   0.0%
+        26            0   0.0%            0   0.0%
+        27            0   0.0%            0   0.0%
+        28            0   0.0%            0   0.0%
+        29            0   0.0%            0   0.0%
+        30            0   0.0%            0   0.0%
+        31            0   0.0%            0   0.0%
+        32            0   0.0%            0   0.0%
+        33            0   0.0%            0   0.0%
+        34            0   0.0%            0   0.0%
+        35            0   0.0%            0   0.0%
+        36            0   0.0%            0   0.0%
+        37            0   0.0%            0   0.0%
+        38            0   0.0%            0   0.0%
+        39            0   0.0%            0   0.0%
+        40            0   0.0%            0   0.0%
+        41            0   0.0%            0   0.0%
+        42            0   0.0%            0   0.0%
+        43            0   0.0%            0   0.0%
+        44            0   0.0%            0   0.0%
+        45            0   0.0%            0   0.0%
+        46            0   0.0%            0   0.0%
+        47            0   0.0%            0   0.0%
+        48            0   0.0%            0   0.0%
+        49            0   0.0%            0   0.0%
+        50            0   0.0%            0   0.0%
+        51            0   0.0%            0   0.0%
+        52            0   0.0%            0   0.0%
+        53            0   0.0%            0   0.0%
+        54            0   0.0%            0   0.0%
+        55            0   0.0%            0   0.0%
+        56            0   0.0%            0   0.0%
+        57            0   0.0%            0   0.0%
+        58            0   0.0%            0   0.0%
+        59            0   0.0%            0   0.0%
+        60            0   0.0%            0   0.0%
+        61            0   0.0%            0   0.0%
+        62            0   0.0%            0   0.0%
+        63            0   0.0%            0   0.0%
+        64            0   0.0%            0   0.0%
+        65            0   0.0%            0   0.0%
+        66            0   0.0%            0   0.0%
+        67            0   0.0%            0   0.0%
+        68            0   0.0%            0   0.0%
+        69            0   0.0%            0   0.0%
+        70            0   0.0%            0   0.0%
+        71            0   0.0%            0   0.0%
+        72            0   0.0%            0   0.0%
+        73            0   0.0%            0   0.0%
+        74            0   0.0%            0   0.0%
+        75            0   0.0%            0   0.0%
+        76            0   0.0%            0   0.0%
+        77            0   0.0%            0   0.0%
+        78            0   0.0%            0   0.0%
+        79            0   0.0%            0   0.0%
+        80            0   0.0%            0   0.0%
+        81            0   0.0%            0   0.0%
+        82            0   0.0%            0   0.0%
+        83            0   0.0%            0   0.0%
+        84            0   0.0%            0   0.0%
+        85            0   0.0%            0   0.0%
+        86            0   0.0%            0   0.0%
+        87            0   0.0%            0   0.0%
+        88            0   0.0%            0   0.0%
+        89            0   0.0%            0   0.0%
+        90            0   0.0%            0   0.0%
+        91            0   0.0%            0   0.0%
+        92            0   0.0%            0   0.0%
+        93            0   0.0%            0   0.0%
+        94            0   0.0%            0   0.0%
+        95            0   0.0%            0   0.0%
+        96            0   0.0%            0   0.0%
+        97            0   0.0%            0   0.0%
+        98            0   0.0%            0   0.0%
+        99            0   0.0%            0   0.0%
+Total read count  =          0
+Total write count =          0
+=== :1 OBR communication statistical information ===
+response(ms)     size(KB)      count fcd_err rpm_err cpm_err warn
+         0.0          0.0          0       0       0       0    0
+Max remote write response time =        0.0ms
+Max remote write size          =        0.0KB
+=== :1 async OBR statistical information ===
+OBR sync reason            count
+cache size limit               0   0.0%
+interval time elapsed          0   0.0%
+I/O wait / CF change           0   0.0%
+Total sync command count                 =             0
+Total sync command response time         =         0.0ms
+Max sync command response time           =         0.0ms
+Total remote write count after last sync =             0
+Total remote write size after last sync  =         0.0KB
+Max remote write count before last sync  =             0
+Max remote write size before last sync   =         0.0KB
+Total remote write wait count            =             0
+=== 56716d40(0:1) RAID Group: 0 HDD access information ===
+HDD No       read      write  read total response  write total response
+     3        0.0        0.0                 0.00                  0.00 
+     4        0.0        0.0                 0.00                  0.00 
+     5        0.0        0.0                 0.00                  0.00 
+     6        0.0        0.0                 0.00                  0.00 
+     7        0.0        0.0                 0.00                  0.00 
+     8        0.0        0.0                 0.00                  0.00 
+     9        0.0        0.0                 0.00                  0.00 
+    10        0.0        0.0                 0.00                  0.00 
+    11        0.0        0.0                 0.00                  0.00 
+    12        0.0        0.0                 0.00                  0.00 
+=== HDD 3 response time information ===
+                  read                 write
+<  50ms           0.00   0.0%           0.00   0.0%
+< 100ms           0.00   0.0%           0.00   0.0%
+< 200ms           0.00   0.0%           0.00   0.0%
+< 500ms           0.00   0.0%           0.00   0.0%
+<   1ms           0.00   0.0%           0.00   0.0%
+<   3ms           0.00   0.0%           0.00   0.0%
+<    5s           0.00   0.0%           0.00   0.0%
+>=   5s           0.00   0.0%           0.00   0.0%
+Read time worst  =        513ms
+Write time worst =        129ms
+=== HDD 4 response time information ===
+                  read                 write
+<  50ms           0.00   0.0%           0.00   0.0%
+< 100ms           0.00   0.0%           0.00   0.0%
+< 200ms           0.00   0.0%           0.00   0.0%
+< 500ms           0.00   0.0%           0.00   0.0%
+<   1ms           0.00   0.0%           0.00   0.0%
+<   3ms           0.00   0.0%           0.00   0.0%
+<    5s           0.00   0.0%           0.00   0.0%
+>=   5s           0.00   0.0%           0.00   0.0%
+Read time worst  =         21ms
+Write time worst =         31ms
+=== HDD 5 response time information ===
+                  read                 write
+<  50ms           0.00   0.0%           0.00   0.0%
+< 100ms           0.00   0.0%           0.00   0.0%
+< 200ms           0.00   0.0%           0.00   0.0%
+< 500ms           0.00   0.0%           0.00   0.0%
+<   1ms           0.00   0.0%           0.00   0.0%
+<   3ms           0.00   0.0%           0.00   0.0%
+<    5s           0.00   0.0%           0.00   0.0%
+>=   5s           0.00   0.0%           0.00   0.0%
+Read time worst  =         18ms
+Write time worst =         17ms
+=== HDD 6 response time information ===
+                  read                 write
+<  50ms           0.00   0.0%           0.00   0.0%
+< 100ms           0.00   0.0%           0.00   0.0%
+< 200ms           0.00   0.0%           0.00   0.0%
+< 500ms           0.00   0.0%           0.00   0.0%
+<   1ms           0.00   0.0%           0.00   0.0%
+<   3ms           0.00   0.0%           0.00   0.0%
+<    5s           0.00   0.0%           0.00   0.0%
+>=   5s           0.00   0.0%           0.00   0.0%
+Read time worst  =         90ms
+Write time worst =        103ms
+=== HDD 7 response time information ===
+                  read                 write
+<  50ms           0.00   0.0%           0.00   0.0%
+< 100ms           0.00   0.0%           0.00   0.0%
+< 200ms           0.00   0.0%           0.00   0.0%
+< 500ms           0.00   0.0%           0.00   0.0%
+<   1ms           0.00   0.0%           0.00   0.0%
+<   3ms           0.00   0.0%           0.00   0.0%
+<    5s           0.00   0.0%           0.00   0.0%
+>=   5s           0.00   0.0%           0.00   0.0%
+Read time worst  =         97ms
+Write time worst =        115ms
+=== HDD 8 response time information ===
+                  read                 write
+<  50ms           0.00   0.0%           0.00   0.0%
+< 100ms           0.00   0.0%           0.00   0.0%
+< 200ms           0.00   0.0%           0.00   0.0%
+< 500ms           0.00   0.0%           0.00   0.0%
+<   1ms           0.00   0.0%           0.00   0.0%
+<   3ms           0.00   0.0%           0.00   0.0%
+<    5s           0.00   0.0%           0.00   0.0%
+>=   5s           0.00   0.0%           0.00   0.0%
+Read time worst  =         95ms
+Write time worst =        120ms
+=== HDD 9 response time information ===
+                  read                 write
+<  50ms           0.00   0.0%           0.00   0.0%
+< 100ms           0.00   0.0%           0.00   0.0%
+< 200ms           0.00   0.0%           0.00   0.0%
+< 500ms           0.00   0.0%           0.00   0.0%
+<   1ms           0.00   0.0%           0.00   0.0%
+<   3ms           0.00   0.0%           0.00   0.0%
+<    5s           0.00   0.0%           0.00   0.0%
+>=   5s           0.00   0.0%           0.00   0.0%
+Read time worst  =        105ms
+Write time worst =        104ms
+=== HDD 10 response time information ===
+                  read                 write
+<  50ms           0.00   0.0%           0.00   0.0%
+< 100ms           0.00   0.0%           0.00   0.0%
+< 200ms           0.00   0.0%           0.00   0.0%
+< 500ms           0.00   0.0%           0.00   0.0%
+<   1ms           0.00   0.0%           0.00   0.0%
+<   3ms           0.00   0.0%           0.00   0.0%
+<    5s           0.00   0.0%           0.00   0.0%
+>=   5s           0.00   0.0%           0.00   0.0%
+Read time worst  =         45ms
+Write time worst =        100ms
+=== HDD 11 response time information ===
+                  read                 write
+<  50ms           0.00   0.0%           0.00   0.0%
+< 100ms           0.00   0.0%           0.00   0.0%
+< 200ms           0.00   0.0%           0.00   0.0%
+< 500ms           0.00   0.0%           0.00   0.0%
+<   1ms           0.00   0.0%           0.00   0.0%
+<   3ms           0.00   0.0%           0.00   0.0%
+<    5s           0.00   0.0%           0.00   0.0%
+>=   5s           0.00   0.0%           0.00   0.0%
+Read time worst  =        405ms
+Write time worst =         14ms
+=== HDD 12 response time information ===
+                  read                 write
+<  50ms           0.00   0.0%           0.00   0.0%
+< 100ms           0.00   0.0%           0.00   0.0%
+< 200ms           0.00   0.0%           0.00   0.0%
+< 500ms           0.00   0.0%           0.00   0.0%
+<   1ms           0.00   0.0%           0.00   0.0%
+<   3ms           0.00   0.0%           0.00   0.0%
+<    5s           0.00   0.0%           0.00   0.0%
+>=   5s           0.00   0.0%           0.00   0.0%
+Read time worst  =         83ms
+Write time worst =        107ms
+=== 56716d40(0:1) RAID Group: 0 HDD transfer size information ===
+              read             write
+<   1KB          0   0.0%          0   0.0% 
+<   2KB          0   0.0%          0   0.0% 
+<   4KB          0   0.0%          0   0.0% 
+<   8KB          0   0.0%          0   0.0% 
+<  16KB          0   0.0%          0   0.0% 
+<  32KB          0   0.0%          0   0.0% 
+<  64KB          0   0.0%          0   0.0% 
+< 128KB          0   0.0%          0   0.0% 
+< 256KB          0   0.0%          0   0.0% 
+< 512KB          0   0.0%          0   0.0% 
+<   1MB          0   0.0%          0   0.0% 
+<   2MB          0   0.0%          0   0.0% 
+<   4MB          0   0.0%          0   0.0% 
+>=  4MB          0   0.0%          0   0.0% 
+Total read  transfer rate =        0.0KB/s
+Total write transfer rate =        0.0KB/s
+=== 56716d40(0:1) RAID Group: 0 HDD transfer rate information ===
+               read             write
+<  1MB/s          0   0.0%          0   0.0% 
+<  2MB/s          0   0.0%          0   0.0% 
+<  4MB/s          0   0.0%          0   0.0% 
+<  8MB/s          0   0.0%          0   0.0% 
+< 16MB/s          0   0.0%          0   0.0% 
+< 32MB/s          0   0.0%          0   0.0% 
+< 64MB/s          0   0.0%          0   0.0% 
+>=64MB/s          0   0.0%          0   0.0% 
+=== 56716d40(0:1) RAID Group: 1 HDD access information ===
+HDD No       read      write  read total response  write total response
+    24        0.2        0.0                 0.50                  0.00 
+    25        0.2        0.0                 0.50                  0.00 
+    26        0.2        0.0                 0.50                  0.00 
+    27        0.2        0.0                 0.50                  0.00 
+    28        0.2        0.0                 0.50                  0.00 
+    29        0.2        0.0                 0.50                  0.00 
+    30        0.2        0.0                 0.50                  0.00 
+    31        0.2        0.0                 0.50                  0.00 
+    32        0.2        0.0                 0.50                  0.00 
+    33        0.2        0.0                 0.50                  0.00 
+    34        0.2        0.0                 0.50                  0.00 
+    35        0.2        0.0                 0.50                  0.00 
+=== HDD 24 response time information ===
+                  read                 write
+<  50ms           0.50 100.0%           0.00   0.0%
+< 100ms           0.00   0.0%           0.00   0.0%
+< 200ms           0.00   0.0%           0.00   0.0%
+< 500ms           0.00   0.0%           0.00   0.0%
+<   1ms           0.00   0.0%           0.00   0.0%
+<   3ms           0.00   0.0%           0.00   0.0%
+<    5s           0.00   0.0%           0.00   0.0%
+>=   5s           0.00   0.0%           0.00   0.0%
+Read time worst  =        647ms
+Write time worst =        205ms
+=== HDD 25 response time information ===
+                  read                 write
+<  50ms           0.50 100.0%           0.00   0.0%
+< 100ms           0.00   0.0%           0.00   0.0%
+< 200ms           0.00   0.0%           0.00   0.0%
+< 500ms           0.00   0.0%           0.00   0.0%
+<   1ms           0.00   0.0%           0.00   0.0%
+<   3ms           0.00   0.0%           0.00   0.0%
+<    5s           0.00   0.0%           0.00   0.0%
+>=   5s           0.00   0.0%           0.00   0.0%
+Read time worst  =        508ms
+Write time worst =       1048ms
+=== HDD 26 response time information ===
+                  read                 write
+<  50ms           0.50 100.0%           0.00   0.0%
+< 100ms           0.00   0.0%           0.00   0.0%
+< 200ms           0.00   0.0%           0.00   0.0%
+< 500ms           0.00   0.0%           0.00   0.0%
+<   1ms           0.00   0.0%           0.00   0.0%
+<   3ms           0.00   0.0%           0.00   0.0%
+<    5s           0.00   0.0%           0.00   0.0%
+>=   5s           0.00   0.0%           0.00   0.0%
+Read time worst  =        591ms
+Write time worst =        162ms
+=== HDD 27 response time information ===
+                  read                 write
+<  50ms           0.50 100.0%           0.00   0.0%
+< 100ms           0.00   0.0%           0.00   0.0%
+< 200ms           0.00   0.0%           0.00   0.0%
+< 500ms           0.00   0.0%           0.00   0.0%
+<   1ms           0.00   0.0%           0.00   0.0%
+<   3ms           0.00   0.0%           0.00   0.0%
+<    5s           0.00   0.0%           0.00   0.0%
+>=   5s           0.00   0.0%           0.00   0.0%
+Read time worst  =        367ms
+Write time worst =        658ms
+=== HDD 28 response time information ===
+                  read                 write
+<  50ms           0.50 100.0%           0.00   0.0%
+< 100ms           0.00   0.0%           0.00   0.0%
+< 200ms           0.00   0.0%           0.00   0.0%
+< 500ms           0.00   0.0%           0.00   0.0%
+<   1ms           0.00   0.0%           0.00   0.0%
+<   3ms           0.00   0.0%           0.00   0.0%
+<    5s           0.00   0.0%           0.00   0.0%
+>=   5s           0.00   0.0%           0.00   0.0%
+Read time worst  =        873ms
+Write time worst =        187ms
+=== HDD 29 response time information ===
+                  read                 write
+<  50ms           0.50 100.0%           0.00   0.0%
+< 100ms           0.00   0.0%           0.00   0.0%
+< 200ms           0.00   0.0%           0.00   0.0%
+< 500ms           0.00   0.0%           0.00   0.0%
+<   1ms           0.00   0.0%           0.00   0.0%
+<   3ms           0.00   0.0%           0.00   0.0%
+<    5s           0.00   0.0%           0.00   0.0%
+>=   5s           0.00   0.0%           0.00   0.0%
+Read time worst  =        664ms
+Write time worst =        275ms
+=== HDD 30 response time information ===
+                  read                 write
+<  50ms           0.50 100.0%           0.00   0.0%
+< 100ms           0.00   0.0%           0.00   0.0%
+< 200ms           0.00   0.0%           0.00   0.0%
+< 500ms           0.00   0.0%           0.00   0.0%
+<   1ms           0.00   0.0%           0.00   0.0%
+<   3ms           0.00   0.0%           0.00   0.0%
+<    5s           0.00   0.0%           0.00   0.0%
+>=   5s           0.00   0.0%           0.00   0.0%
+Read time worst  =        653ms
+Write time worst =        127ms
+=== HDD 31 response time information ===
+                  read                 write
+<  50ms           0.50 100.0%           0.00   0.0%
+< 100ms           0.00   0.0%           0.00   0.0%
+< 200ms           0.00   0.0%           0.00   0.0%
+< 500ms           0.00   0.0%           0.00   0.0%
+<   1ms           0.00   0.0%           0.00   0.0%
+<   3ms           0.00   0.0%           0.00   0.0%
+<    5s           0.00   0.0%           0.00   0.0%
+>=   5s           0.00   0.0%           0.00   0.0%
+Read time worst  =        652ms
+Write time worst =        347ms
+=== HDD 32 response time information ===
+                  read                 write
+<  50ms           0.50 100.0%           0.00   0.0%
+< 100ms           0.00   0.0%           0.00   0.0%
+< 200ms           0.00   0.0%           0.00   0.0%
+< 500ms           0.00   0.0%           0.00   0.0%
+<   1ms           0.00   0.0%           0.00   0.0%
+<   3ms           0.00   0.0%           0.00   0.0%
+<    5s           0.00   0.0%           0.00   0.0%
+>=   5s           0.00   0.0%           0.00   0.0%
+Read time worst  =       2025ms
+Write time worst =        573ms
+=== HDD 33 response time information ===
+                  read                 write
+<  50ms           0.50 100.0%           0.00   0.0%
+< 100ms           0.00   0.0%           0.00   0.0%
+< 200ms           0.00   0.0%           0.00   0.0%
+< 500ms           0.00   0.0%           0.00   0.0%
+<   1ms           0.00   0.0%           0.00   0.0%
+<   3ms           0.00   0.0%           0.00   0.0%
+<    5s           0.00   0.0%           0.00   0.0%
+>=   5s           0.00   0.0%           0.00   0.0%
+Read time worst  =       1497ms
+Write time worst =       2023ms
+=== HDD 34 response time information ===
+                  read                 write
+<  50ms           0.50 100.0%           0.00   0.0%
+< 100ms           0.00   0.0%           0.00   0.0%
+< 200ms           0.00   0.0%           0.00   0.0%
+< 500ms           0.00   0.0%           0.00   0.0%
+<   1ms           0.00   0.0%           0.00   0.0%
+<   3ms           0.00   0.0%           0.00   0.0%
+<    5s           0.00   0.0%           0.00   0.0%
+>=   5s           0.00   0.0%           0.00   0.0%
+Read time worst  =        639ms
+Write time worst =        149ms
+=== HDD 35 response time information ===
+                  read                 write
+<  50ms           0.50 100.0%           0.00   0.0%
+< 100ms           0.00   0.0%           0.00   0.0%
+< 200ms           0.00   0.0%           0.00   0.0%
+< 500ms           0.00   0.0%           0.00   0.0%
+<   1ms           0.00   0.0%           0.00   0.0%
+<   3ms           0.00   0.0%           0.00   0.0%
+<    5s           0.00   0.0%           0.00   0.0%
+>=   5s           0.00   0.0%           0.00   0.0%
+Read time worst  =       2719ms
+Write time worst =        427ms
+=== 56716d40(0:1) RAID Group: 1 HDD transfer size information ===
+              read             write
+<   1KB          0   0.0%          0   0.0% 
+<   2KB          0   0.0%          0   0.0% 
+<   4KB          0   0.0%          0   0.0% 
+<   8KB          0   0.0%          0   0.0% 
+<  16KB          0   0.0%          0   0.0% 
+<  32KB          0   0.0%          0   0.0% 
+<  64KB          0   0.0%          0   0.0% 
+< 128KB          0   0.0%          0   0.0% 
+< 256KB          0   0.0%          0   0.0% 
+< 512KB          0   0.0%          0   0.0% 
+<   1MB        120 100.0%          0   0.0% 
+<   2MB          0   0.0%          0   0.0% 
+<   4MB          0   0.0%          0   0.0% 
+>=  4MB          0   0.0%          0   0.0% 
+Total read  transfer rate =     1024.0KB/s
+Total write transfer rate =        0.0KB/s
+=== 56716d40(0:1) RAID Group: 1 HDD transfer rate information ===
+               read             write
+<  1MB/s          0   0.0%          0   0.0% 
+<  2MB/s          0   0.0%          0   0.0% 
+<  4MB/s          0   0.0%          0   0.0% 
+<  8MB/s          0   0.0%          0   0.0% 
+< 16MB/s          0   0.0%          0   0.0% 
+< 32MB/s          0   0.0%          0   0.0% 
+< 64MB/s         34  28.3%          0   0.0% 
+>=64MB/s         86  71.7%          0   0.0% 

@@ -1,0 +1,44 @@
+{
+  "host_template": "ArrayFort",
+  "host_title": "AF - <node>",
+  "priority": 10,
+  "graphs": [
+    {
+      "graph_template": "AF - LUN read block size",
+      "graph_tree": "/TTSP/<node_path>/LUN/HDDs/detail/read",
+      "legend_type": "show_average",
+      "graph_item_cols": 4,
+      "graph_items": [
+        "lt_2KB",
+        "lt_8KB",
+        "lt_16KB",
+        "lt_32KB",
+        "lt_64KB",
+        "lt_128KB",
+        "lt_256KB",
+        "lt_512KB",
+        "lt_1MB",
+        "ge_1MB"
+      ],
+      "graph_item_texts": [
+        "<   2KB",
+        "<   8KB",
+        "<  16KB",
+        "<  32KB",
+        "<  64KB",
+        "< 128KB",
+        "< 256KB",
+        "< 512KB",
+        "<   1MB",
+        ">=  1MB"
+      ],
+      "chart_style": "stack",
+      "vertical_label": "count",
+      "upper_limit": 1000,
+      "unit_exponent_value": 1,
+      "graph_title": "AF - <node> <device> - read block size",
+      "datasource_title": "AF - <node> <device> - read block size"
+    }
+  ]
+}
+

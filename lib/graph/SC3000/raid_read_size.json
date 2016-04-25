@@ -1,0 +1,46 @@
+{
+  "host_template": "SC3000",
+  "host_title": "SC - <node>",
+  "priority": 13,
+  "graphs": [
+    {
+      "graph_template": "SC - RaidGr read block size",
+      "graph_tree": "/TTSP/<node_path>/RaidGr/BlockSize/read",
+      "legend_type": "show_average",
+      "graph_item_cols": 4,
+      "graph_items": [
+        "lt_1KB",
+        "lt_4KB",
+        "lt_8KB",
+        "lt_32KB",
+        "lt_64KB",
+        "lt_256KB",
+        "lt_512KB",
+        "lt_1MB",
+        "lt_2MB",
+        "lt_4MB",
+        "ge_4MB"
+      ],
+      "graph_item_texts": [
+        "<   1KB",
+        "<   4KB",
+        "<   8KB",
+        "<  32KB",
+        "<  64KB",
+        "< 256KB",
+        "< 512KB",
+        "<   1MB",
+        "<   2MB",
+        "<   4MB",
+        ">=  4MB"
+      ],
+      "chart_style": "stack",
+      "vertical_label": "count",
+      "upper_limit": 1000,
+      "unit_exponent_value": 1,
+      "graph_title": "SC - <node> <device> - RaidGr read block size",
+      "datasource_title": "SC - <node> <device> - RaidGr read block size"
+    }
+  ]
+}
+
