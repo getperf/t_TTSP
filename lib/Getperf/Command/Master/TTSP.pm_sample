@@ -2,17 +2,37 @@ package Getperf::Command::Master::TTSP;
 use strict;
 use warnings;
 use Exporter 'import';
+use Data::Dumper;
 
 our @EXPORT = qw/alias_lun alias_raid_group/;
 
 our $db = {
-	_node_dir   => undef,
-	controllers => undef,
-	luns        => undef,
-	raid_groups => undef,
+	_node_dir   => {
+		'KB3950' => 'DB',
+
+	},
+	controllers => {
+		# === model: AF7500 system ID: 0x26c61ce5 system code: KB3950 ===
+		'KB3950' => 'E42 - c3t18',
+	},
+	luns        => {
+		'KB3950' => {
+		    'd41' => '/e42/dat2',
+		    'd42' => '/e42/dat3',
+		    'd48' => '/e42/redo2',
+		},
+	},
+	raid_groups => {
+		'KB3950' => {
+		    '0' => '/e42/dat2',
+		    '2' => '/e42/dat3',
+		    '3' => '/e42/redo2',
+		},
+	},
 };
 
 sub new {bless{},+shift}
+
 
 # If the host of the master DB is registered, and device text is empty,
 # the device is set to be NULL(undef).
@@ -23,7 +43,6 @@ sub alias_lun {
 
 sub alias_raid_group {
 	my ($host, $device, $device_text) = @_;
-
 	return ($device_text eq '' && %{$db->{raid_groups}{$host}}) ? undef : $device;
 }
 
