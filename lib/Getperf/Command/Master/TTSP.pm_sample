@@ -8,22 +8,22 @@ our @EXPORT = qw/alias_lun alias_raid_group/;
 
 our $db = {
 	_node_dir   => {
-		'KB3950' => 'DB',
+		'EX0001' => 'DB',
 
 	},
 	controllers => {
-		# === model: AF7500 system ID: 0x26c61ce5 system code: KB3950 ===
-		'KB3950' => 'E42 - c3t18',
+		# === model: AF7500 system ID: 0x26c61ce5 system code: EX0001 ===
+		'EX0001' => 'E42 - c3t18',
 	},
 	luns        => {
-		'KB3950' => {
+		'EX0001' => {
 		    'd41' => '/e42/dat2',
 		    'd42' => '/e42/dat3',
 		    'd48' => '/e42/redo2',
 		},
 	},
 	raid_groups => {
-		'KB3950' => {
+		'EX0001' => {
 		    '0' => '/e42/dat2',
 		    '2' => '/e42/dat3',
 		    '3' => '/e42/redo2',
