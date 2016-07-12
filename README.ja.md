@@ -22,14 +22,31 @@ TTSP モニタリング
 
 テンプレートに必要な設定ファイルは以下の通りです。
 
-|          ディレクトリ          |          ファイル名          |                  用途                 |      備考      |
-|--------------------------------|------------------------------|---------------------------------------|----------------|
-| lib/agent/TTSP/conf/           | iniファイル                  | エージェント採取設定ファイル          |                |
-| lib/Getperf/Command/Site/TTSP/ | pmファイル                   | データ集計スクリプト                  |                |
-| lib/graph/[ArrayFort,SC3000]/  | jsonファイル                 | グラフテンプレート登録ルール          | カスタマイズ用 |
-| lib/cacti/template/0.8.8g/     | xmlファイル                  | Cactiテンプレートエクスポートファイル |                |
-| script/                        | create_graph_template__af.sh | グラフテンプレート登録スクリプト      | ArrayFort用    |
-|                                | create_graph_template__sc.sh |                                       | SC3000用       |
+|          ディレクトリ          |        ファイル名        |                  用途                 |
+|--------------------------------|--------------------------|---------------------------------------|
+| lib/agent/TTSP/conf/           | iniファイル              | エージェント採取設定ファイル          |
+| lib/Getperf/Command/Site/TTSP/ | pmファイル               | データ集計スクリプト                  |
+| lib/graph/[ArrayFort,SC3000]/  | jsonファイル             | グラフテンプレート登録ルール          |
+| lib/cacti/template/0.8.8g/     | xmlファイル              | Cactiテンプレートエクスポートファイル |
+| script/                        | create_graph_template.sh | グラフテンプレート登録スクリプト      |
+
+メトリック
+-----------
+
+TTSPパフォーマンス統計グラフなどの監視項目定義は以下の通りです。
+
+|                Key                 |                                                  Description                                                   |
+|------------------------------------|----------------------------------------------------------------------------------------------------------------|
+| **パフォーマンス統計**             | **ストレージI/O統計パフォーマンス統計グラフ**                                                                  |
+| wbc                                | **キャッシュヒット率**<br>write-back-cache schedule                                                            |
+| summary                            | **コントローラI/O統計**<br>IOPS / MB/sec / Response / HDD IOPS                                                 |
+| read_elapse / write_elapse         | **コントローラレスポンス統計**<br>read response histogram / write response histogram                           |
+| read_size / write_size             | **コントローラブロックサイズ統計**<br>read block size / write block size                                       |
+| lun_summary                        | **LUN I/O統計**<br>LUN Read IOPS / LUN Write IOPS / LUN Read MBs / LUN Write MBs / LUN Response / LUN HDD IOPS |
+| lun_read_elapse / lun_write_elapse | **LUNスポンス統計**<br>LUN read response histogram / LUN write response histogram                              |
+| lun_read_size / lun_write_size     | **LUNブロックサイズ統計**<br>LUN read block size / LUN write block size                                        |
+| raid_summary                       | **RAIDグループI/O統計**<br>RaidGr IOPS / RaidGr MBs / RaidGr Response                                          |
+| raid_read_size / raid_write_size   | **RAIDグループブロックサイズ統計**<br>RaidGr read block size / RaidGr write block size                         |
 
 Install
 =====
