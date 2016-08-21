@@ -13,7 +13,7 @@ TTSP モニタリング
 ストレージとサーバがFC接続しているローカル構成の場合は、そのサーバ上でエージェントをします。
 ネットワーク経由でアクセス可能なストレージの場合は、ストレージコントローラのIPアドレスを指定してリモートで情報採取をします。その場合、エージェントの実行サーバに東芝サポートユーティリティのインストールが必要になります。
 
-**注意事項**
+**注意**
 
 1. FL6000(Violin),NH3000(NAS-GW)は別テンプレートとなります。
 
@@ -56,26 +56,36 @@ Install
 
 Git Hub からプロジェクトをクローンします
 
-	(git clone してプロジェクト複製)
+```
+git clone https://github.com/getperf/t_TTSP
+```
 
 プロジェクトディレクトリに移動して、--template オプション付きでサイトの初期化をします
 
-	cd t_TTSP
-	initsite --template .
+```
+cd t_TTSP
+initsite --template .
+```
 
 Cacti グラフテンプレート作成スクリプトを順に実行します(1行目がArrayFort、2行目がSC3000)
 
-	./script/create_graph_template__af.sh
-	./script/create_graph_template__sc.sh
+```
+./script/create_graph_template__af.sh
+./script/create_graph_template__sc.sh
+```
 
 Cacti グラフテンプレートをファイルにエクスポートします
 
-	cacti-cli --export ArrayFort
-	cacti-cli --export SC3000
+```
+cacti-cli --export ArrayFort
+cacti-cli --export SC3000
+```
 
 集計スクリプト、グラフ登録ルール、Cactiグラフテンプレートエクスポートファイル一式をアーカイブします
 
-	sumup --export=TTSP --archive=$GETPERF_HOME/var/template/archive/config-TTSP.tar.gz
+```
+sumup --export=TTSP --archive=$GETPERF_HOME/var/template/archive/config-TTSP.tar.gz
+```
 
 テンプレートのインポート
 ---------------------
@@ -83,17 +93,23 @@ Cacti グラフテンプレートをファイルにエクスポートします
 前述で作成した $GETPERF_HOME/var/template/archive/config-TTSP.tar.gz がTTSPテンプレートのアーカイブとなり、
 監視サイト上で以下のコマンドを用いてインポートします
 
-	cd {モニタリングサイトホーム}
-	tar xvf $GETPERF_HOME/var/template/archive/config-TTSP.tar.gz
+```
+cd {モニタリングサイトホーム}
+tar xvf $GETPERF_HOME/var/template/archive/config-TTSP.tar.gz
+```
 
 Cacti グラフテンプレートをインポートします。監視対象のストレージに合わせてテンプレートをインポートしてください
 
-	cacti-cli --import ArrayFort
-	cacti-cli --import SC3000
+```
+cacti-cli --import ArrayFort
+cacti-cli --import SC3000
+```
 
 インポートした集計スクリプトを反映するため、集計デーモンを再起動します
 
-	sumup restart
+```
+sumup restart
+```
 
 使用方法
 =====
@@ -103,23 +119,29 @@ Cacti グラフテンプレートをインポートします。監視対象の�
 
 ArrayFort の場合、以下のエージェント採取設定ファイルをエージェントホームの conf ディレクトリの下(/home/{OSユーザ}/ptune/conf/)にコピーして、エージェントを再起動してください。
 
-	{サイトホーム}/lib/agent/TTSP/conf/ArrayFort.ini
+```
+{サイトホーム}/lib/agent/TTSP/conf/ArrayFort.ini
+```
 
 SC3000 の場合、以下のファイルを conf 下にコピーしてください。
 
-	{サイトホーム}/lib/agent/TTSP/conf/SC3000.ini
+```
+{サイトホーム}/lib/agent/TTSP/conf/SC3000.ini
+```
 
 監視対象サーバから直接採取する場合と、リモートで採取する場合で実行オプションの変更が必要になります。
 以下例はリモート採取の設定となります。
 
-	;---------- Monitor command config (Storage HW resource) -----------------------------------
-	STAT_ENABLE.TTSP = true
-	STAT_INTERVAL.TTSP = 300
-	STAT_TIMEOUT.TTSP = 400
-	STAT_MODE.TTSP = concurrent
+```
+;---------- Monitor command config (Storage HW resource) -----------------------------------
+STAT_ENABLE.TTSP = true
+STAT_INTERVAL.TTSP = 300
+STAT_TIMEOUT.TTSP = 400
+STAT_MODE.TTSP = concurrent
 
-	; SC3000
-	STAT_CMD.TTSP = 'sudo /usr/local/TSBtsu/bin/tsuacs -h {ストレージIPアドレス} -T 60 -n 5 -all',   {ストレージIPアドレス}/tsuacs.txt
+; SC3000
+STAT_CMD.TTSP = 'sudo /usr/local/TSBtsu/bin/tsuacs -h {ストレージIPアドレス} -T 60 -n 5 -all',   {ストレージIPアドレス}/tsuacs.txt
+```
 
 ローカル採取の場合は、上記コマンド定義 STAT_CMD.TTSP の実行オプションの "-h {ストレージのIPアドレス}" の指定を削除します。
 
@@ -136,7 +158,9 @@ SC3000 の場合、以下のファイルを conf 下にコピーしてくださ�
 上記エージェントセットアップ後、データ集計が実行されると、サイトホームディレクトリの node の下にノード定義ファイルが出力されます。
 出力されたファイル若しくはディレクトリを指定してcacti-cli を実行します。
 
-	cacti-cli node/ArrayFort/{ストレージノード}/
+```
+cacti-cli node/ArrayFort/{ストレージノード}/
+```
 
 AUTHOR
 -----------
