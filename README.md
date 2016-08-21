@@ -24,13 +24,31 @@ File organization
 Necessary configuration files to the template is as follows.
 
 | Directory                        | file name                       | Applications                             |
-| -------------------------------- | ---------------- -------------- | ----------------------------------- ---- |
+|----------------------------------|---------------------------------|------------------------------------------|
 | Lib/agent/TTSP/conf/             | ini file                        | agent collecting configuration file      |
 | Lib/Getperf/Command/Site/TTSP/   | pm file                         | data aggregation script                  |
 | Lib/graph/[ArrayFort, SC3000]/   | json file                       | graph template registration rules        |
 | Lib/cacti/template/0.8.8g/       | xml file                        | Cacti template export file               |
 | Script/                          | create_graph_template__af.sh    | graph template registration script       |
 |                                  | Create_graph_template__sc.sh    |                                          |
+
+Metric
+-----------
+
+Monitoring item definitions such as performance statistics graph is as follows.
+
+|                Key                 |                                                 Description                                                 |
+|------------------------------------|-------------------------------------------------------------------------------------------------------------|
+| **Performance Statistics**         | **Storage I/O performance graph**                                                                           |
+| wbc                                | **Cache hit rate**<br>write-back-cache schedule                                                             |
+| summary                            | **Controller IOPS**<br>IOPS / MB/sec / Response / HDD IOPS                                                  |
+| read_elapse / write_elapse         | **Controller Response**<br>read response histogram / write response histogram                               |
+| read_size / write_size             | **Controller Block size**<br>read block size / write block size                                             |
+| lun_summary                        | **LUN IOPS**<br>LUN Read IOPS / LUN Write IOPS / LUN Read MBs / LUN Write MBs / LUN Response / LUN HDD IOPS |
+| lun_read_elapse / lun_write_elapse | **LUN Response**<br>LUN read response histogram / LUN write response histogram                              |
+| lun_read_size / lun_write_size     | **LUN Block size**<br>LUN read block size / LUN write block size                                            |
+| raid_summary                       | **RAID Group IOPS**<br>RaidGr IOPS / RaidGr MBs / RaidGr Response                                           |
+| raid_read_size / raid_write_size   | **RAID Group Block size**<br>RaidGr read block size / RaidGr write block size                               |
 
 Install
 =====
@@ -41,7 +59,7 @@ Build TTSP template
 Clone the project from Git Hub
 
 ```
-(Git clone to project replication)
+git clone https://github.com/getperf/t_TTSP
 ```
 
 Go to the project directory, Initialize the site with the template options.
